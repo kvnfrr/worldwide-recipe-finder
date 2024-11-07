@@ -3,11 +3,12 @@ export const metadata = {
   description: 'Explore recipes from around the world.',
 };
 
+import '../app/globals.css'
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="/globals.css" />
       </head>
       <body>
         {children}
