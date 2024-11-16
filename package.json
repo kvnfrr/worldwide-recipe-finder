@@ -11,7 +11,9 @@
   "dependencies": {
     "next": "^15.0.2",
     "react": "^19.0.0-rc-02c0e824-20241028",
-    "react-dom": "^19.0.0-rc-02c0e824-20241028"
+    "react-dom": "^19.0.0-rc-02c0e824-20241028",
+    "three": "^0.170.0",
+    "three-globe": "^2.34.4"
   },
   "devDependencies": {
     "eslint": "^8",
