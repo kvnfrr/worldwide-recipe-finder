@@ -77,15 +77,16 @@ const GlobeComponent = () => {
 
     // Click handler to show popup near the clicked country
     const onClick = (event) => {
-      if (hoveredCountryRef.current) {
+      if (hoveredCountryRef.current && hoveredCountryRef.current.properties) {
         const countryName = hoveredCountryRef.current.properties.ADMIN;
         setSelectedCountry(countryName);
-
+    
         // Calculate 2D screen position of the clicked point
         const { x, y } = calculatePopupPosition(hoveredCountryRef.current, camera);
         setPopupPosition({ x, y });
       }
     };
+    
 
     // Helper function to calculate the screen position for popup
     const calculatePopupPosition = (country, camera) => {
