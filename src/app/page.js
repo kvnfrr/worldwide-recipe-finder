@@ -1,6 +1,7 @@
 "use client";
 import dynamic from 'next/dynamic';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import recipes from './recipes.json';  // Import the JSON file
 
 const GlobeComponent = dynamic(() => import('./Globe'), { ssr: false });
 
@@ -44,7 +45,16 @@ export default function HomePage() {
           <>
             <h3 style={{ marginTop: '20px', marginBottom: '10px' }}>{selectedCountry}</h3>
             <div className="recipes" style={{ marginTop: '20px' }}>
-              <p>Recipes will be displayed here...</p>
+              {recipes[selectedCountry] ? (
+                recipes[selectedCountry].map((recipe, index) => (
+                  <div key={index} style={{ marginBottom: '15px' }}>
+                    <h4>{recipe.name}</h4>
+                    <p>{recipe.description}</p>
+                  </div>
+                ))
+              ) : (
+                <p>No recipes available for this country.</p>
+              )}
             </div>
           </>
         ) : (

@@ -1,0 +1,39 @@
+{
+      "United States": [
+        {
+          "name": "Apple Pie",
+          "description": "A classic American dessert made with apples, sugar, and cinnamon in a buttery crust."
+        },
+        {
+          "name": "Hamburger",
+          "description": "A popular sandwich made with ground beef, lettuce, tomato, and condiments."
+        }
+      ],
+      "Italy": [
+        {
+          "name": "Pizza Margherita",
+          "description": "A simple pizza made with tomato, mozzarella, and fresh basil."
+        },
+        {
+          "name": "Pasta Carbonara",
+          "description": "A traditional Italian pasta dish made with eggs, cheese, pancetta, and pepper."
+        }
+      ],
+      "Japan": [
+        {
+          "name": "Sushi",
+          "description": "A dish consisting of vinegared rice and various ingredients like fish, vegetables, and seaweed."
+        },
+        {
+          "name": "Ramen",
+          "description": "A noodle soup dish with various toppings such as pork, green onions, and soft-boiled eggs."
+        }
+      ],
+      "Canada": [
+        {
+          "name": "Maple Leaf ",
+          "description": "a leaf"
+        }
+      ]
+    }
+    
