@@ -39,15 +39,13 @@ body {
 }
 
 .menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: #333;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
-  padding: 20px;
-  width: 400px;
-  height: 100vh;
-  overflow-y: auto;
-  border-left: 2px solid #444;
-  z-index: 3;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  z-index: 2;
 }

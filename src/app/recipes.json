@@ -1,39 +1,1942 @@
 {
-      "United States": [
-        {
-          "name": "Apple Pie",
-          "description": "A classic American dessert made with apples, sugar, and cinnamon in a buttery crust."
-        },
-        {
-          "name": "Hamburger",
-          "description": "A popular sandwich made with ground beef, lettuce, tomato, and condiments."
-        }
-      ],
-      "Italy": [
-        {
-          "name": "Pizza Margherita",
-          "description": "A simple pizza made with tomato, mozzarella, and fresh basil."
-        },
-        {
-          "name": "Pasta Carbonara",
-          "description": "A traditional Italian pasta dish made with eggs, cheese, pancetta, and pepper."
-        }
-      ],
-      "Japan": [
-        {
-          "name": "Sushi",
-          "description": "A dish consisting of vinegared rice and various ingredients like fish, vegetables, and seaweed."
-        },
-        {
-          "name": "Ramen",
-          "description": "A noodle soup dish with various toppings such as pork, green onions, and soft-boiled eggs."
-        }
-      ],
-      "Canada": [
-        {
-          "name": "Maple Leaf ",
-          "description": "a leaf"
-        }
-      ]
+  "Afghanistan": [
+    {
+      "name": "Kabuli Pulao",
+      "description": "A traditional rice dish cooked with lamb, raisins, and carrots."
+    },
+    {
+      "name": "Mantu",
+      "description": "Dumplings filled with minced meat and onion, typically served with yogurt."
     }
-    
+  ],
+  "Albania": [
+    {
+      "name": "Byrek",
+      "description": "A savory pie filled with cheese, spinach, or meat."
+    },
+    {
+      "name": "Tavë Kosi",
+      "description": "A baked dish made with lamb, yogurt, and eggs."
+    }
+  ],
+  "Algeria": [
+    {
+      "name": "Couscous",
+      "description": "A traditional North African dish made with steamed semolina and vegetables."
+    },
+    {
+      "name": "Chakchouka",
+      "description": "A spicy tomato and bell pepper stew often served with eggs."
+    }
+  ],
+  "Andorra": [
+    {
+      "name": "Escudella",
+      "description": "A hearty stew made with meat, vegetables, and pasta."
+    },
+    {
+      "name": "Trinxat",
+      "description": "A dish made from mashed potatoes, cabbage, and bacon."
+    }
+  ],
+  "Angola": [
+    {
+      "name": "Muamba de Galinha",
+      "description": "Chicken stew cooked with palm oil, garlic, and okra."
+    },
+    {
+      "name": "Calulu",
+      "description": "A dish made with dried fish or meat, cooked with vegetables and palm oil."
+    }
+  ],
+  "Antigua and Barbuda": [
+    {
+      "name": "Ducana",
+      "description": "Sweet potato dumplings, typically served with saltfish."
+    },
+    {
+      "name": "Fungee",
+      "description": "A cornmeal-based dish, often served with okra."
+    }
+  ],
+  "Argentina": [
+    {
+      "name": "Asado",
+      "description": "A traditional barbecue with a variety of meats grilled over an open fire."
+    },
+    {
+      "name": "Empanadas",
+      "description": "Pastry filled with beef, chicken, or cheese."
+    }
+  ],
+  "Armenia": [
+    {
+      "name": "Khorovats",
+      "description": "Armenian-style barbecued meat, often served with vegetables."
+    },
+    {
+      "name": "Dolma",
+      "description": "Vine leaves stuffed with minced meat and rice."
+    }
+  ],
+  "Australia": [
+    {
+      "name": "Meat Pie",
+      "description": "A savory pie filled with minced meat, gravy, and sometimes vegetables."
+    },
+    {
+      "name": "Lamington",
+      "description": "A sponge cake coated in chocolate and rolled in coconut."
+    }
+  ],
+  "Austria": [
+    {
+      "name": "Wiener Schnitzel",
+      "description": "Breaded and fried veal cutlet served with lemon."
+    },
+    {
+      "name": "Tafelspitz",
+      "description": "Boiled beef served with horseradish and apple sauce."
+    }
+  ],
+  "Azerbaijan": [
+    {
+      "name": "Plov",
+      "description": "A rice dish with saffron, lamb, and vegetables."
+    },
+    {
+      "name": "Dolma",
+      "description": "Vegetables stuffed with rice, minced meat, and herbs."
+    }
+  ],
+  "Bahamas": [
+    {
+      "name": "Conch Salad",
+      "description": "A fresh salad made with conch, lime juice, bell peppers, and onions."
+    },
+    {
+      "name": "Cracked Conch",
+      "description": "Breaded and fried conch meat, often served with a spicy dipping sauce."
+    }
+  ],
+  "Bahrain": [
+    {
+      "name": "Machboos",
+      "description": "A spiced rice dish with meat or fish."
+    },
+    {
+      "name": "Samboosa",
+      "description": "A fried pastry filled with spiced meat or vegetables."
+    }
+  ],
+  "Bangladesh": [
+    {
+      "name": "Biryani",
+      "description": "A rice dish cooked with marinated meat, saffron, and spices."
+    },
+    {
+      "name": "Panta Ilish",
+      "description": "Fermented rice served with fried hilsa fish."
+    }
+  ],
+  "Barbados": [
+    {
+      "name": "Cou-Cou and Flying Fish",
+      "description": "A cornmeal and okra dish served with steamed or fried flying fish."
+    },
+    {
+      "name": "Pepperpot",
+      "description": "A rich stew made with beef, pork, and cassareep."
+    }
+  ],
+  "Belarus": [
+    {
+      "name": "Draniki",
+      "description": "Potato pancakes often served with sour cream."
+    },
+    {
+      "name": "Machanka",
+      "description": "A pork stew served with pancakes or potatoes."
+    }
+  ],
+  "Belgium": [
+    {
+      "name": "Moules-Frites",
+      "description": "Mussels cooked in white wine and served with fries."
+    },
+    {
+      "name": "Stoofvlees",
+      "description": "A beef stew made with Belgian beer."
+    }
+  ],
+  "Belize": [
+    {
+      "name": "Rice and Beans",
+      "description": "Coconut-flavored rice cooked with beans, often served with meat."
+    },
+    {
+      "name": "Fry Jacks",
+      "description": "Deep-fried dough often served with breakfast."
+    }
+  ],
+  "Benin": [
+    {
+      "name": "Ago Glain",
+      "description": "A tomato-based sauce served with fried fish."
+    },
+    {
+      "name": "Amiwo",
+      "description": "A spicy cornmeal dish often served with meat."
+    }
+  ],
+  "Bhutan": [
+    {
+      "name": "Ema Datshi",
+      "description": "A spicy dish made with chili peppers and cheese."
+    },
+    {
+      "name": "Phaksha Paa",
+      "description": "Pork cooked with radishes, chili, and sometimes spinach."
+    }
+  ],
+  "Bolivia": [
+    {
+      "name": "Salteñas",
+      "description": "Savory pastries filled with meat, potatoes, and spices."
+    },
+    {
+      "name": "Silpancho",
+      "description": "Thinly pounded meat served with rice, potatoes, and fried egg."
+    }
+  ],
+  "Bosnia and Herzegovina": [
+    {
+      "name": "Ćevapi",
+      "description": "Grilled minced meat sausages served with flatbread."
+    },
+    {
+      "name": "Begova Čorba",
+      "description": "A chicken and okra soup."
+    }
+  ],
+  "Botswana": [
+    {
+      "name": "Seswaa",
+      "description": "A meat stew traditionally served with thick porridge called pap."
+    },
+    {
+      "name": "Morogo",
+      "description": "Wild spinach, often served with meat."
+    }
+  ],
+  "Brazil": [
+    {
+      "name": "Feijoada",
+      "description": "A black bean stew with pork, served with rice and greens."
+    },
+    {
+      "name": "Pão de Queijo",
+      "description": "Cheese bread made from cassava flour."
+    }
+  ],
+  "Brunei": [
+    {
+      "name": "Ambuyat",
+      "description": "A starchy dish made from the sago palm, served with dipping sauces."
+    },
+    {
+      "name": "Nasi Katok",
+      "description": "Rice served with fried chicken and a spicy sambal."
+    }
+  ],
+  "Bulgaria": [
+    {
+      "name": "Banitsa",
+      "description": "A pastry filled with eggs and cheese."
+    },
+    {
+      "name": "Shopska Salad",
+      "description": "A fresh salad made with tomatoes, cucumbers, onions, and feta cheese."
+    }
+  ],
+  "Burkina Faso": [
+    {
+      "name": "Riz Gras",
+      "description": "A rice dish cooked with meat, vegetables, and tomatoes."
+    },
+    {
+      "name": "Poulet Bicyclette",
+      "description": "Grilled chicken marinated with local spices."
+    }
+  ],
+  "Burundi": [
+    {
+      "name": "Boko Boko Harees",
+      "description": "Wheat and chicken porridge, seasoned with spices."
+    },
+    {
+      "name": "Ndagala",
+      "description": "Small fried fish served with spicy tomato sauce."
+    }
+  ],
+  "Cambodia": [
+    {
+      "name": "Amok Trey",
+      "description": "A fish curry steamed in banana leaves."
+    },
+    {
+      "name": "Lok Lak",
+      "description": "Stir-fried marinated beef served with a dipping sauce."
+    }
+  ],
+  "Cameroon": [
+    {
+      "name": "Ndolé",
+      "description": "A bitterleaf vegetable stew with peanuts and meat or shrimp."
+    },
+    {
+      "name": "Ekwang",
+      "description": "Grated cocoyams wrapped in leaves and cooked with palm oil and spices."
+    }
+  ],
+  "Canada": [
+    {
+      "name": "Poutine",
+      "description": "Fries topped with cheese curds and gravy."
+    },
+    {
+      "name": "Butter Tarts",
+      "description": "Small pastry tarts filled with a buttery, sweet mixture."
+    }
+  ],
+  "Cape Verde": [
+    {
+      "name": "Cachupa",
+      "description": "A slow-cooked stew of corn, beans, and fish or meat."
+    },
+    {
+      "name": "Pastel Com Diablo Dentro",
+      "description": "Deep-fried pastry filled with spicy tuna."
+    }
+  ],
+  "Central African Republic": [
+    {
+      "name": "Kanda",
+      "description": "Meatballs made from ground meat and onions, cooked in tomato sauce."
+    },
+    {
+      "name": "Gozo",
+      "description": "A thick porridge made from cassava flour."
+    }
+  ],
+  "Chad": [
+    {
+      "name": "Jarret de Boeuf",
+      "description": "Beef shank cooked with vegetables and spices."
+    },
+    {
+      "name": "Daraba",
+      "description": "A vegetable stew often made with okra, tomatoes, and leafy greens."
+    }
+  ],
+  "Chile": [
+    {
+      "name": "Empanadas",
+      "description": "Savory pastry filled with beef, onions, and spices."
+    },
+    {
+      "name": "Cazuela",
+      "description": "A hearty soup made with beef, potatoes, and vegetables."
+    }
+  ],
+  "China": [
+    {
+      "name": "Peking Duck",
+      "description": "Crispy roasted duck served with pancakes, scallions, and hoisin sauce."
+    },
+    {
+      "name": "Kung Pao Chicken",
+      "description": "Spicy stir-fried chicken with peanuts and vegetables."
+    }
+  ],
+  "Colombia": [
+    {
+      "name": "Arepa",
+      "description": "A cornmeal patty often served with cheese or meat."
+    },
+    {
+      "name": "Bandeja Paisa",
+      "description": "A platter with rice, beans, meat, plantains, and an egg."
+    }
+  ],
+  "Comoros": [
+    {
+      "name": "Langouste à la Vanille",
+      "description": "Grilled lobster with a vanilla sauce."
+    },
+    {
+      "name": "Mkatra Foutra",
+      "description": "Coconut bread often served with grilled fish."
+    }
+  ],
+  "Congo, Democratic Republic of the": [
+    {
+      "name": "Poulet Moambé",
+      "description": "Chicken cooked in a palm oil and tomato sauce."
+    },
+    {
+      "name": "Liboké",
+      "description": "Fish cooked in banana leaves with spices and vegetables."
+    }
+  ],
+  "Congo, Republic of the": [
+    {
+      "name": "Saka Saka",
+      "description": "Cassava leaves cooked with peanut butter and spices."
+    },
+    {
+      "name": "Poulet à la Moambé",
+      "description": "Chicken stewed in a rich palm oil sauce."
+    }
+  ],
+  "Costa Rica": [
+    {
+      "name": "Gallo Pinto",
+      "description": "Rice and beans cooked with bell peppers, onions, and cilantro."
+    },
+    {
+      "name": "Casado",
+      "description": "A plate of rice, beans, salad, plantains, and meat or fish."
+    }
+  ],
+  "Croatia": [
+    {
+      "name": "Pašticada",
+      "description": "Beef marinated and slow-cooked in a rich sauce, served with gnocchi."
+    },
+    {
+      "name": "Ćevapčići",
+      "description": "Grilled minced meat sausages served with flatbread."
+    }
+  ],
+  "Cuba": [
+    {
+      "name": "Ropa Vieja",
+      "description": "Shredded beef cooked in a tomato sauce with bell peppers and onions."
+    },
+    {
+      "name": "Tostones",
+      "description": "Twice-fried plantain slices, typically served as a side dish."
+    }
+  ],
+  "Cyprus": [
+    {
+      "name": "Halloumi",
+      "description": "A semi-hard cheese that is often grilled or fried."
+    },
+    {
+      "name": "Kleftiko",
+      "description": "Lamb marinated with garlic and lemon, slow-cooked until tender."
+    }
+  ],
+  "Czech Republic": [
+    {
+      "name": "Svíčková",
+      "description": "Beef in a creamy vegetable sauce, served with bread dumplings."
+    },
+    {
+      "name": "Guláš",
+      "description": "A stew made with beef, onions, and paprika."
+    }
+  ],
+    "Denmark": [
+      {
+        "name": "Smørrebrød",
+        "description": "An open-faced sandwich typically made with rye bread and a variety of toppings."
+      },
+      {
+        "name": "Frikadeller",
+        "description": "Danish meatballs made from ground pork and beef, often served with potatoes and gravy."
+      }
+    ],
+    "Djibouti": [
+      {
+        "name": "Skoudehkaris",
+        "description": "A traditional rice dish made with meat, tomatoes, and a blend of spices."
+      },
+      {
+        "name": "Fah-fah",
+        "description": "A goat meat stew flavored with garlic, onions, and green chilies."
+      }
+    ],
+    "Dominica": [
+      {
+        "name": "Mountain Chicken",
+        "description": "A dish made from a large frog native to the island, often fried."
+      },
+      {
+        "name": "Callaloo Soup",
+        "description": "A rich soup made from callaloo leaves, coconut milk, and spices."
+      }
+    ],
+    "Dominican Republic": [
+      {
+        "name": "La Bandera",
+        "description": "A meal of rice, beans, and meat, often served with fried plantains."
+      },
+      {
+        "name": "Sancocho",
+        "description": "A hearty stew made with root vegetables, meat, and spices."
+      }
+    ],
+    "East Timor": [
+      {
+        "name": "Ikan Pepes",
+        "description": "Fish marinated in spices, wrapped in banana leaves, and steamed."
+      },
+      {
+        "name": "Batar Da'an",
+        "description": "A corn, mung bean, and pumpkin stew."
+      }
+    ],
+    "Ecuador": [
+      {
+        "name": "Ceviche",
+        "description": "A seafood dish marinated in citrus juice, often served with corn and plantains."
+      },
+      {
+        "name": "Llapingachos",
+        "description": "Cheese-stuffed potato patties, often served with sausage and eggs."
+      }
+    ],
+    "Egypt": [
+      {
+        "name": "Koshari",
+        "description": "A mix of rice, lentils, chickpeas, and pasta, topped with a spicy tomato sauce and crispy onions."
+      },
+      {
+        "name": "Ful Medames",
+        "description": "Slow-cooked fava beans served with olive oil, garlic, and lemon juice."
+      }
+    ],
+    "El Salvador": [
+      {
+        "name": "Pupusas",
+        "description": "Thick corn tortillas stuffed with cheese, beans, or pork."
+      },
+      {
+        "name": "Yuca Frita",
+        "description": "Fried cassava, often served with curtido (pickled cabbage slaw)."
+      }
+    ],
+    "Equatorial Guinea": [
+      {
+        "name": "Succotash",
+        "description": "A dish made with corn, beans, and sometimes meat."
+      },
+      {
+        "name": "Peanut Soup",
+        "description": "A creamy soup made from peanuts, tomatoes, and spices."
+      }
+    ],
+    "Eritrea": [
+      {
+        "name": "Zigni",
+        "description": "A spicy stew made with beef, tomatoes, and berbere spice."
+      },
+      {
+        "name": "Injera",
+        "description": "A sourdough flatbread used as both a base and an eating utensil."
+      }
+    ],
+    "Estonia": [
+      {
+        "name": "Verivorst",
+        "description": "Blood sausage typically served with lingonberry sauce."
+      },
+      {
+        "name": "Mulgipuder",
+        "description": "A porridge made from mashed potatoes and barley, served with bacon."
+      }
+    ],
+    "Eswatini": [
+      {
+        "name": "Sishwala",
+        "description": "A thick porridge made from maize meal, typically served with meat stew."
+      },
+      {
+        "name": "Umncweba",
+        "description": "Sun-dried meat, often used as a snack or ingredient in stews."
+      }
+    ],
+    "Ethiopia": [
+      {
+        "name": "Doro Wat",
+        "description": "A spicy chicken stew served with injera."
+      },
+      {
+        "name": "Kitfo",
+        "description": "Minced raw beef seasoned with spices and clarified butter."
+      }
+    ],
+    "Fiji": [
+      {
+        "name": "Kokoda",
+        "description": "A dish of raw fish marinated in coconut milk, lime juice, and vegetables."
+      },
+      {
+        "name": "Lovo",
+        "description": "A traditional Fijian feast cooked in an underground oven."
+      }
+    ],
+    "Finland": [
+      {
+        "name": "Karjalanpiirakka",
+        "description": "A Karelian pie filled with rice, potatoes, or carrots."
+      },
+      {
+        "name": "Poronkäristys",
+        "description": "Sautéed reindeer served with mashed potatoes and lingonberry sauce."
+      }
+    ],
+    "France": [
+      {
+        "name": "Boeuf Bourguignon",
+        "description": "A beef stew cooked in red wine, with mushrooms and onions."
+      },
+      {
+        "name": "Ratatouille",
+        "description": "A vegetable stew made with zucchini, eggplant, bell peppers, and tomatoes."
+      }
+    ],
+    "Gabon": [
+      {
+        "name": "Poulet Nyembwe",
+        "description": "Chicken stewed in palm nut sauce."
+      },
+      {
+        "name": "Atanga",
+        "description": "A fruit also called 'bush butter,' often cooked and served with rice."
+      }
+    ],
+    "Gambia": [
+      {
+        "name": "Domoda",
+        "description": "A peanut stew made with meat and vegetables."
+      },
+      {
+        "name": "Benachin",
+        "description": "A one-pot rice dish cooked with meat and vegetables."
+      }
+    ],
+    "Georgia": [
+      {
+        "name": "Khachapuri",
+        "description": "Cheese-filled bread, often with an egg in the center."
+      },
+      {
+        "name": "Khinkali",
+        "description": "Meat-filled dumplings seasoned with herbs and spices."
+      }
+    ],
+    "Germany": [
+      {
+        "name": "Bratwurst",
+        "description": "A type of German sausage, often grilled and served with mustard."
+      },
+      {
+        "name": "Sauerbraten",
+        "description": "Pot roast marinated in vinegar and spices."
+      }
+    ],
+    "Ghana": [
+      {
+        "name": "Jollof Rice",
+        "description": "A popular West African dish made with rice, tomatoes, and spices."
+      },
+      {
+        "name": "Banku",
+        "description": "A fermented corn and cassava dough served with soup or stew."
+      }
+    ],
+    "Greece": [
+      {
+        "name": "Moussaka",
+        "description": "A baked dish made with layers of eggplant, minced meat, and béchamel sauce."
+      },
+      {
+        "name": "Souvlaki",
+        "description": "Skewered meat, often served with pita bread and tzatziki."
+      }
+    ],
+    "Grenada": [
+      {
+        "name": "Oil Down",
+        "description": "A one-pot meal made with breadfruit, meat, and coconut milk."
+      },
+      {
+        "name": "Pelau",
+        "description": "A rice dish cooked with meat, pigeon peas, and coconut milk."
+      }
+    ],
+    "Guatemala": [
+      {
+        "name": "Pepián",
+        "description": "A rich stew made with chicken, beef, or pork, and thickened with toasted seeds."
+      },
+      {
+        "name": "Kak'ik",
+        "description": "A traditional turkey soup seasoned with herbs and spices."
+      }
+    ],
+    "Guinea": [
+      {
+        "name": "Fufu",
+        "description": "A starchy side dish made from cassava, plantains, or yams, often served with soup."
+      },
+      {
+        "name": "Jollof Rice",
+        "description": "A dish of rice cooked in tomato sauce with vegetables and meat."
+      }
+    ],
+    "Guinea-Bissau": [
+      {
+        "name": "Caldo de Mancarra",
+        "description": "A peanut soup often served with chicken and vegetables."
+      },
+      {
+        "name": "Jollof Rice",
+        "description": "A traditional West African rice dish cooked with tomatoes and spices."
+      }
+    ],
+    "Guyana": [
+      {
+        "name": "Pepperpot",
+        "description": "A rich stew made with meat, cassareep, and spices."
+      },
+      {
+        "name": "Roti and Curry",
+        "description": "Flatbread served with a curried meat or vegetable dish."
+      }
+    ],
+    "Haiti": [
+      {
+        "name": "Griot",
+        "description": "Fried pork marinated in citrus, served with pikliz (spicy pickled vegetables)."
+      },
+      {
+        "name": "Diri Ak Djon Djon",
+        "description": "Rice cooked with black mushrooms, giving it a unique flavor and color."
+      }
+    ],
+    "Honduras": [
+      {
+        "name": "Baleadas",
+        "description": "Flour tortillas filled with refried beans, cheese, and cream."
+      },
+      {
+        "name": "Sopa de Caracol",
+        "description": "A conch soup made with coconut milk, yuca, and plantains."
+      }
+    ],
+    "Hungary": [
+      {
+        "name": "Goulash",
+        "description": "A beef stew seasoned with paprika, often served with bread."
+      },
+      {
+        "name": "Lángos",
+        "description": "Deep-fried dough topped with sour cream, cheese, or garlic."
+      }
+    ],
+    "Iceland": [
+      {
+        "name": "Hákarl",
+        "description": "Fermented shark meat, traditionally served as a delicacy."
+      },
+      {
+        "name": "Skyr",
+        "description": "A cultured dairy product similar to yogurt, often served with berries."
+      }
+    ],
+    "India": [
+      {
+        "name": "Butter Chicken",
+        "description": "Chicken cooked in a rich tomato and butter sauce, flavored with spices."
+      },
+      {
+        "name": "Biryani",
+        "description": "A rice dish cooked with spices, saffron, and either chicken or lamb."
+      }
+    ],
+    "Indonesia": [
+      {
+        "name": "Nasi Goreng",
+        "description": "Indonesian-style fried rice with sweet soy sauce, shallots, garlic, and spices."
+      },
+      {
+        "name": "Satay",
+        "description": "Skewered and grilled meat served with peanut sauce."
+      }
+    ],
+    "Iran": [
+      {
+        "name": "Fesenjan",
+        "description": "A stew made with pomegranate, walnuts, and chicken or duck."
+      },
+      {
+        "name": "Chelo Kebab",
+        "description": "Grilled meat served with saffron-flavored rice."
+      }
+    ],
+    "Iraq": [
+      {
+        "name": "Masgouf",
+        "description": "Grilled fish, often seasoned with tamarind and spices."
+      },
+      {
+        "name": "Kubba",
+        "description": "Fried dumplings filled with ground meat, bulgur, and spices."
+      }
+    ],
+    "Ireland": [
+      {
+        "name": "Irish Stew",
+        "description": "A stew made with lamb, potatoes, and onions."
+      },
+      {
+        "name": "Boxty",
+        "description": "A traditional potato pancake, often served with sour cream."
+      }
+    ],
+    "Israel": [
+      {
+        "name": "Falafel",
+        "description": "Deep-fried chickpea patties, often served in pita with vegetables."
+      },
+      {
+        "name": "Shakshuka",
+        "description": "Poached eggs cooked in a spicy tomato and pepper sauce."
+      }
+    ],
+    "Italy": [
+      {
+        "name": "Pizza Margherita",
+        "description": "A simple pizza made with tomato sauce, mozzarella, and fresh basil."
+      },
+      {
+        "name": "Pasta Carbonara",
+        "description": "Pasta made with eggs, cheese, pancetta, and black pepper."
+      }
+    ],
+    "Ivory Coast": [
+      {
+        "name": "Attiéké",
+        "description": "Fermented cassava couscous, often served with fish or meat."
+      },
+      {
+        "name": "Alloco",
+        "description": "Fried plantains, typically served with a spicy dipping sauce."
+      }
+    ],
+    "Jamaica": [
+      {
+        "name": "Jerk Chicken",
+        "description": "Chicken marinated in a spicy jerk seasoning, grilled or smoked."
+      },
+      {
+        "name": "Ackee and Saltfish",
+        "description": "The national dish made with salted cod and ackee fruit."
+      }
+    ],
+    "Japan": [
+      {
+        "name": "Sushi",
+        "description": "Vinegared rice topped with raw fish, vegetables, or other ingredients."
+      },
+      {
+        "name": "Ramen",
+        "description": "A noodle soup dish with a flavorful broth and various toppings like pork and egg."
+      }
+    ],
+    "Jordan": [
+      {
+        "name": "Mansaf",
+        "description": "A traditional lamb dish served with rice and a fermented yogurt sauce."
+      },
+      {
+        "name": "Maqluba",
+        "description": "A layered rice, meat, and vegetable dish, flipped upside down before serving."
+      }
+    ],
+    "Kazakhstan": [
+      {
+        "name": "Beshbarmak",
+        "description": "Boiled meat served over flat noodles, often topped with onion broth."
+      },
+      {
+        "name": "Kazy",
+        "description": "A sausage made from horse meat, typically served as part of a celebratory meal."
+      }
+    ],
+    "Kenya": [
+      {
+        "name": "Nyama Choma",
+        "description": "Grilled meat, often served with a side of kachumbari (fresh tomato and onion salad)."
+      },
+      {
+        "name": "Ugali",
+        "description": "A dense maize porridge often served as a side dish to meat and vegetables."
+      }
+    ],
+    "Kiribati": [
+      {
+        "name": "Palusami",
+        "description": "A dish of taro leaves filled with coconut cream, often cooked with fish or meat."
+      },
+      {
+        "name": "Te Bua Toro Ni Baukin",
+        "description": "A breadfruit and coconut cream dish, often served with fish."
+      }
+    ],
+      "Kuwait": [
+        {
+          "name": "Machboos",
+          "description": "A spiced rice dish served with chicken, lamb, or fish."
+        },
+        {
+          "name": "Jireesh",
+          "description": "A porridge made from crushed wheat cooked with meat and spices."
+        }
+      ],
+      "Kyrgyzstan": [
+        {
+          "name": "Beshbarmak",
+          "description": "Boiled meat served with flat noodles and broth, typically enjoyed with hands."
+        },
+        {
+          "name": "Laghman",
+          "description": "A noodle dish with stir-fried vegetables and meat, often served in a spicy broth."
+        }
+      ],
+      "Laos": [
+        {
+          "name": "Larb",
+          "description": "A minced meat salad made with lime juice, fish sauce, herbs, and spices."
+        },
+        {
+          "name": "Tam Mak Hoong",
+          "description": "A spicy green papaya salad with lime, fish sauce, and chili."
+        }
+      ],
+      "Latvia": [
+        {
+          "name": "Pīrāgi",
+          "description": "Bacon-filled pastries often enjoyed during celebrations."
+        },
+        {
+          "name": "Sklandrausis",
+          "description": "A sweet rye pastry filled with carrot and potato mash."
+        }
+      ],
+      "Lebanon": [
+        {
+          "name": "Tabbouleh",
+          "description": "A salad made with bulgur, parsley, tomatoes, mint, and lemon juice."
+        },
+        {
+          "name": "Kibbeh",
+          "description": "Ground meat mixed with bulgur and spices, often formed into balls or patties."
+        }
+      ],
+      "Lesotho": [
+        {
+          "name": "Papa",
+          "description": "A thick maize meal porridge, typically served with vegetables or meat."
+        },
+        {
+          "name": "Motoho",
+          "description": "A fermented sorghum drink that is a popular traditional beverage."
+        }
+      ],
+      "Liberia": [
+        {
+          "name": "Jollof Rice",
+          "description": "A rice dish cooked with tomatoes, onions, and spices, often served with chicken or fish."
+        },
+        {
+          "name": "Pepper Soup",
+          "description": "A spicy soup made with meat, chili peppers, and various spices."
+        }
+      ],
+      "Libya": [
+        {
+          "name": "Couscous",
+          "description": "A steamed semolina dish often served with meat, vegetables, and broth."
+        },
+        {
+          "name": "Bazeen",
+          "description": "A hard dough made from barley flour, served with meat and vegetable sauce."
+        }
+      ],
+      "Liechtenstein": [
+        {
+          "name": "Käsknöpfle",
+          "description": "Cheese noodles similar to Swiss spaetzle, often served with crispy onions."
+        },
+        {
+          "name": "Ribel",
+          "description": "A cornmeal dish typically served with apple sauce or cheese."
+        }
+      ],
+      "Lithuania": [
+        {
+          "name": "Cepelinai",
+          "description": "Potato dumplings stuffed with meat, cheese, or mushrooms."
+        },
+        {
+          "name": "Šaltibarščiai",
+          "description": "A cold beet soup made with kefir, served with boiled potatoes."
+        }
+      ],
+      "Luxembourg": [
+        {
+          "name": "Judd mat Gaardebounen",
+          "description": "Smoked pork collar served with broad beans."
+        },
+        {
+          "name": "Quetschentaart",
+          "description": "A traditional plum tart often enjoyed as a dessert."
+        }
+      ],
+      "Madagascar": [
+        {
+          "name": "Romazava",
+          "description": "A meat and leafy greens stew, typically flavored with ginger and garlic."
+        },
+        {
+          "name": "Ravitoto",
+          "description": "Crushed cassava leaves cooked with pork and served with rice."
+        }
+      ],
+      "Malawi": [
+        {
+          "name": "Nsima",
+          "description": "A thick maize porridge served as a staple with meat or vegetable stews."
+        },
+        {
+          "name": "Chambo",
+          "description": "A type of tilapia fish often grilled or fried and served with nsima."
+        }
+      ],
+      "Malaysia": [
+        {
+          "name": "Nasi Lemak",
+          "description": "Rice cooked in coconut milk, served with sambal, fried anchovies, peanuts, and boiled eggs."
+        },
+        {
+          "name": "Char Kway Teow",
+          "description": "A stir-fried noodle dish with prawns, eggs, bean sprouts, and Chinese sausage."
+        }
+      ],
+      "Maldives": [
+        {
+          "name": "Mas Huni",
+          "description": "A mixture of shredded tuna, coconut, onion, and chili, often eaten for breakfast."
+        },
+        {
+          "name": "Garudhiya",
+          "description": "A fish soup served with rice, lime, chili, and onions."
+        }
+      ],
+      "Mali": [
+        {
+          "name": "Tiguadege Na",
+          "description": "A peanut butter stew made with meat and vegetables, served over rice."
+        },
+        {
+          "name": "Fufu",
+          "description": "A starchy side dish made from pounded yams or cassava, often served with stews."
+        }
+      ],
+      "Malta": [
+        {
+          "name": "Pastizzi",
+          "description": "Flaky pastries filled with ricotta cheese or mushy peas."
+        },
+        {
+          "name": "Fenek Moqli",
+          "description": "Fried rabbit, which is the national dish of Malta."
+        }
+      ],
+      "Marshall Islands": [
+        {
+          "name": "Macadamia-Crusted Fish",
+          "description": "Fish fillet crusted with macadamia nuts, often served with tropical fruit salsa."
+        },
+        {
+          "name": "Chicken Kelaguen",
+          "description": "Chicken cooked with lemon, coconut, green onions, and chili peppers."
+        }
+      ],
+      "Mauritania": [
+        {
+          "name": "Thieboudienne",
+          "description": "A dish of fish, rice, and vegetables, often considered the national dish of Mauritania."
+        },
+        {
+          "name": "Cherchem",
+          "description": "A stew made with lamb, wheat, and chickpeas, seasoned with spices."
+        }
+      ],
+      "Mauritius": [
+        {
+          "name": "Dholl Puri",
+          "description": "Flatbread filled with ground yellow split peas, served with chutney and curries."
+        },
+        {
+          "name": "Bol Renversé",
+          "description": "A stir-fry of rice, vegetables, and meat, served upside down with an egg on top."
+        }
+      ],
+      "Mexico": [
+        {
+          "name": "Tacos al Pastor",
+          "description": "Marinated pork cooked on a spit and served in corn tortillas with pineapple, onion, and cilantro."
+        },
+        {
+          "name": "Chiles en Nogada",
+          "description": "Poblano chiles stuffed with meat, dried fruit, and spices, topped with walnut sauce and pomegranate seeds."
+        }
+      ],
+      "Micronesia": [
+        {
+          "name": "Taro Soup",
+          "description": "A soup made from taro root and coconut milk, seasoned with salt and pepper."
+        },
+        {
+          "name": "Poke",
+          "description": "A dish made from raw fish marinated in citrus juice, often served with coconut."
+        }
+      ],
+      "Moldova": [
+        {
+          "name": "Mămăligă",
+          "description": "A cornmeal porridge often served with cheese, sour cream, or meat."
+        },
+        {
+          "name": "Plăcintă",
+          "description": "A filled pastry made with cheese, potatoes, or apples."
+        }
+      ],
+      "Monaco": [
+        {
+          "name": "Barbagiuan",
+          "description": "Fried pastry filled with Swiss chard, ricotta, and herbs."
+        },
+        {
+          "name": "Socca",
+          "description": "A chickpea flour pancake, often served as a street food."
+        }
+      ],
+      "Mongolia": [
+        {
+          "name": "Buuz",
+          "description": "Steamed dumplings filled with meat, typically mutton or beef."
+        },
+        {
+          "name": "Khuushuur",
+          "description": "Fried meat-filled pastries, often served at festivals."
+        }
+      ],
+      "Montenegro": [
+        {
+          "name": "Cevapi",
+          "description": "Grilled minced meat sausages served with flatbread, onions, and ajvar."
+        },
+        {
+          "name": "Sarma",
+          "description": "Cabbage leaves stuffed with minced meat, rice, and spices."
+        }
+      ],
+      "Morocco": [
+        {
+          "name": "Tagine",
+          "description": "A slow-cooked stew made with meat, vegetables, and spices, named after the clay pot in which it is cooked."
+        },
+        {
+          "name": "Couscous",
+          "description": "Steamed semolina served with meat, vegetables, and broth."
+        }
+      ],
+      "Mozambique": [
+        {
+          "name": "Piri Piri Chicken",
+          "description": "Chicken marinated with piri piri sauce, often grilled and served with rice."
+        },
+        {
+          "name": "Matapa",
+          "description": "A stew made with cassava leaves, peanuts, and coconut milk."
+        }
+      ],
+      "Myanmar": [
+        {
+          "name": "Mohinga",
+          "description": "A fish soup with rice noodles, often considered Myanmar's national dish."
+        },
+        {
+          "name": "Tea Leaf Salad",
+          "description": "A salad made with pickled tea leaves, peanuts, sesame seeds, and other crunchy ingredients."
+        }
+      ],
+      "Namibia": [
+        {
+          "name": "Biltong",
+          "description": "Air-dried cured meat, similar to jerky, often made from beef or game."
+        },
+        {
+          "name": "Kapana",
+          "description": "Grilled street food meat, often served with spicy sauces."
+        }
+      ],
+      "Nauru": [
+        {
+          "name": "Coconut Fish",
+          "description": "Fish cooked in coconut milk, often served with rice."
+        },
+        {
+          "name": "Fried Rice",
+          "description": "A simple fried rice dish with vegetables, meat, and eggs."
+        }
+      ],
+      "Nepal": [
+        {
+          "name": "Dal Bhat",
+          "description": "A meal of lentil soup served with rice, vegetables, and pickles."
+        },
+        {
+          "name": "Momo",
+          "description": "Dumplings filled with meat or vegetables, typically served with spicy sauce."
+        }
+      ],
+      "Netherlands": [
+        {
+          "name": "Stroopwafel",
+          "description": "Thin waffle cookies filled with caramel syrup."
+        },
+        {
+          "name": "Haring",
+          "description": "Raw herring served with chopped onions and pickles."
+        }
+      ],
+      "New Zealand": [
+        {
+          "name": "Hāngi",
+          "description": "Meat and vegetables cooked in an underground pit oven."
+        },
+        {
+          "name": "Pavlova",
+          "description": "A meringue-based dessert topped with fresh fruit and cream."
+        }
+      ],
+      "Nicaragua": [
+        {
+          "name": "Gallo Pinto",
+          "description": "A dish of rice and beans fried together, often served with eggs and plantains."
+        },
+        {
+          "name": "Nacatamal",
+          "description": "A traditional tamale made with masa dough, pork, and vegetables, wrapped in banana leaves."
+        }
+      ],
+      "Niger": [
+        {
+          "name": "Djerma Stew",
+          "description": "A meat and vegetable stew often served with rice or fufu."
+        },
+        {
+          "name": "Jollof Rice",
+          "description": "A popular West African rice dish cooked with tomatoes and spices."
+        }
+      ],
+      "Nigeria": [
+        {
+          "name": "Egusi Soup",
+          "description": "A soup made from ground melon seeds, often served with pounded yam."
+        },
+        {
+          "name": "Jollof Rice",
+          "description": "A popular rice dish made with tomatoes, onions, and spices."
+        }
+      ],
+      "North Macedonia": [
+        {
+          "name": "Tavče Gravče",
+          "description": "A baked bean dish, often considered the national dish of North Macedonia."
+        },
+        {
+          "name": "Ajvar",
+          "description": "A spread made from roasted red peppers, often served with bread or meat."
+        }
+      ],
+      "Norway": [
+        {
+          "name": "Raspeballer",
+          "description": "Potato dumplings, often served with salted meat and sausage."
+        },
+        {
+          "name": "Rakfisk",
+          "description": "Fermented trout, typically served with flatbread, sour cream, and onions."
+        }
+      ],
+      "Oman": [
+        {
+          "name": "Shuwa",
+          "description": "Slow-cooked marinated lamb, traditionally cooked in an underground sand oven."
+        },
+        {
+          "name": "Majboos",
+          "description": "A spiced rice dish served with chicken, similar to biryani."
+        }
+      ],
+      "Pakistan": [
+        {
+          "name": "Biryani",
+          "description": "A fragrant rice dish cooked with meat, saffron, and spices."
+        },
+        {
+          "name": "Karahi",
+          "description": "A spicy curry made with chicken or mutton, cooked in a wok-like pot."
+        }
+      ],
+      "Palau": [
+        {
+          "name": "Tinola",
+          "description": "Chicken cooked with ginger, garlic, and vegetables, often served with rice."
+        },
+        {
+          "name": "Fruit Bat Soup",
+          "description": "A traditional soup made with fruit bats, cooked in coconut milk and spices."
+        }
+      ],
+      "Panama": [
+        {
+          "name": "Sancocho",
+          "description": "A traditional chicken soup made with corn, yucca, and plantains."
+        },
+        {
+          "name": "Carimañolas",
+          "description": "Fried yucca fritters stuffed with meat or cheese."
+        }
+      ],
+      "Papua New Guinea": [
+        {
+          "name": "Mumu",
+          "description": "Meat, vegetables, and greens cooked in an underground oven."
+        },
+        {
+          "name": "Kaukau",
+          "description": "Sweet potato, often cooked and served with coconut milk."
+        }
+      ],
+      "Paraguay": [
+        {
+          "name": "Sopa Paraguaya",
+          "description": "A cornbread-like dish made with cheese and onions."
+        },
+        {
+          "name": "Chipa",
+          "description": "Cheese-flavored bread rolls made with cassava flour."
+        }
+      ],
+      "Peru": [
+        {
+          "name": "Ceviche",
+          "description": "Raw fish marinated in lime juice, mixed with onions, cilantro, and chili peppers."
+        },
+        {
+          "name": "Lomo Saltado",
+          "description": "Stir-fried beef with tomatoes, onions, and soy sauce, served with fries and rice."
+        }
+      ],
+        "Philippines": [
+          {
+            "name": "Adobo",
+            "description": "A popular dish made with chicken or pork, marinated in vinegar, soy sauce, garlic, and spices."
+          },
+          {
+            "name": "Sinigang",
+            "description": "A sour soup made with tamarind, meat (usually pork), and various vegetables."
+          }
+        ],
+        "Poland": [
+          {
+            "name": "Pierogi",
+            "description": "Dumplings filled with potatoes, cheese, meat, or fruit, served boiled or fried."
+          },
+          {
+            "name": "Bigos",
+            "description": "A hearty stew made with sauerkraut, fresh cabbage, and mixed meats."
+          }
+        ],
+        "Portugal": [
+          {
+            "name": "Bacalhau à Brás",
+            "description": "A traditional codfish dish with potatoes, onions, and scrambled eggs."
+          },
+          {
+            "name": "Pastel de Nata",
+            "description": "A famous Portuguese custard tart sprinkled with cinnamon."
+          }
+        ],
+        "Qatar": [
+          {
+            "name": "Machboos",
+            "description": "A spiced rice dish typically cooked with meat, vegetables, and a blend of spices."
+          },
+          {
+            "name": "Saloona",
+            "description": "A stew made with vegetables and meat, often served with rice."
+          }
+        ],
+        "Romania": [
+          {
+            "name": "Sarmale",
+            "description": "Cabbage rolls stuffed with minced meat and rice, often cooked with smoked bacon."
+          },
+          {
+            "name": "Mămăligă",
+            "description": "A cornmeal porridge, often served with cheese, cream, or meat."
+          }
+        ],
+        "Russia": [
+          {
+            "name": "Borscht",
+            "description": "A beet soup served hot or cold, often accompanied by sour cream."
+          },
+          {
+            "name": "Pelmeni",
+            "description": "Small dumplings filled with meat, typically boiled and served with sour cream."
+          }
+        ],
+        "Rwanda": [
+          {
+            "name": "Ugali",
+            "description": "A maize-based porridge served with a variety of stews or vegetable dishes."
+          },
+          {
+            "name": "Isombe",
+            "description": "A dish made with mashed cassava leaves, served with fish or meat."
+          }
+        ],
+        "Saint Kitts and Nevis": [
+          {
+            "name": "Stewed Saltfish",
+            "description": "Salted codfish stewed with tomatoes, onions, and spices, often served with plantains."
+          },
+          {
+            "name": "Johnny Cakes",
+            "description": "Fried dough made with flour, butter, and baking powder, often served with fish."
+          }
+        ],
+        "Saint Lucia": [
+          {
+            "name": "Green Fig and Saltfish",
+            "description": "A dish made with green bananas and salted cod, seasoned with spices and vegetables."
+          },
+          {
+            "name": "Callaloo Soup",
+            "description": "A creamy soup made with callaloo leaves, coconut milk, and meat or seafood."
+          }
+        ],
+        "Saint Vincent and the Grenadines": [
+          {
+            "name": "Roasted Breadfruit and Fried Jackfish",
+            "description": "A traditional dish of roasted breadfruit served with fried fish."
+          },
+          {
+            "name": "Pelau",
+            "description": "A one-pot rice dish made with pigeon peas, chicken, and coconut milk."
+          }
+        ],
+        "Samoa": [
+          {
+            "name": "Palusami",
+            "description": "Taro leaves cooked with coconut cream, onions, and corned beef."
+          },
+          {
+            "name": "Oka I'a",
+            "description": "A dish made from raw fish marinated in coconut cream, lemon, and onions."
+          }
+        ],
+        "San Marino": [
+          {
+            "name": "Nidi di Rondine",
+            "description": "Pasta rolls stuffed with prosciutto, cheese, and béchamel sauce, baked until golden."
+          },
+          {
+            "name": "Torta Tre Monti",
+            "description": "A layered wafer cake filled with chocolate cream and hazelnut."
+          }
+        ],
+        "Sao Tome and Principe": [
+          {
+            "name": "Calulu",
+            "description": "A traditional fish stew made with vegetables, palm oil, and spices."
+          },
+          {
+            "name": "Cachupa",
+            "description": "A slow-cooked stew made with beans, corn, vegetables, and meat."
+          }
+        ],
+        "Saudi Arabia": [
+          {
+            "name": "Kabsa",
+            "description": "A spiced rice dish with meat, tomatoes, and a mix of aromatic spices."
+          },
+          {
+            "name": "Mutabbaq",
+            "description": "A stuffed savory pastry filled with meat, onions, and herbs."
+          }
+        ],
+        "Senegal": [
+          {
+            "name": "Thieboudienne",
+            "description": "A fish and rice dish cooked with tomatoes, vegetables, and spices."
+          },
+          {
+            "name": "Yassa Poulet",
+            "description": "Chicken marinated in lemon juice, onions, and mustard, then grilled."
+          }
+        ],
+        "Serbia": [
+          {
+            "name": "Ćevapi",
+            "description": "Grilled minced meat sausages, typically served with flatbread and onions."
+          },
+          {
+            "name": "Sarma",
+            "description": "Cabbage rolls stuffed with minced meat, rice, and spices."
+          }
+        ],
+        "Seychelles": [
+          {
+            "name": "Pwason Griye",
+            "description": "Grilled fish marinated in lime, garlic, and herbs, served with rice."
+          },
+          {
+            "name": "Curry Coco",
+            "description": "A coconut curry made with chicken, fish, or vegetables."
+          }
+        ],
+        "Sierra Leone": [
+          {
+            "name": "Groundnut Stew",
+            "description": "A peanut-based stew cooked with chicken, vegetables, and spices."
+          },
+          {
+            "name": "Fufu",
+            "description": "A starchy side dish made from pounded yams or cassava, often served with soup or stew."
+          }
+        ],
+        "Singapore": [
+          {
+            "name": "Hainanese Chicken Rice",
+            "description": "Poached chicken served with rice cooked in chicken broth, accompanied by chili and ginger sauces."
+          },
+          {
+            "name": "Chili Crab",
+            "description": "Stir-fried crab cooked in a spicy tomato-based sauce."
+          }
+        ],
+        "Slovakia": [
+          {
+            "name": "Bryndzové Halušky",
+            "description": "Potato dumplings with sheep cheese, often topped with bacon."
+          },
+          {
+            "name": "Kapustnica",
+            "description": "A sauerkraut soup made with smoked meat and sausage."
+          }
+        ],
+        "Slovenia": [
+          {
+            "name": "Potica",
+            "description": "A rolled pastry filled with walnuts, poppy seeds, or other sweet fillings."
+          },
+          {
+            "name": "Kranjska Klobasa",
+            "description": "A traditional Carniolan sausage made from pork, bacon, and spices."
+          }
+        ],
+        "Solomon Islands": [
+          {
+            "name": "Poi",
+            "description": "A starchy dish made from mashed taro root, often served with fish."
+          },
+          {
+            "name": "Ulu",
+            "description": "Breadfruit, often boiled or roasted and served with coconut cream."
+          }
+        ],
+        "Somalia": [
+          {
+            "name": "Bariis Iskukaris",
+            "description": "A spiced rice dish cooked with meat and vegetables, similar to pilaf."
+          },
+          {
+            "name": "Canjeero",
+            "description": "A soft flatbread, often served with honey or eaten with savory dishes."
+          }
+        ],
+        "South Africa": [
+          {
+            "name": "Bobotie",
+            "description": "A baked dish made from spiced minced meat, topped with an egg mixture."
+          },
+          {
+            "name": "Biltong",
+            "description": "Air-dried cured meat, similar to jerky, often made from beef or game."
+          }
+        ],
+        "South Korea": [
+          {
+            "name": "Kimchi",
+            "description": "Fermented vegetables, usually napa cabbage, seasoned with chili pepper, garlic, and ginger."
+          },
+          {
+            "name": "Bibimbap",
+            "description": "A mixed rice dish with vegetables, meat, egg, and gochujang (Korean chili paste)."
+          }
+        ],
+        "South Sudan": [
+          {
+            "name": "Ful Medames",
+            "description": "A dish made with fava beans, often cooked with garlic, lemon, and spices."
+          },
+          {
+            "name": "Kisra",
+            "description": "A flatbread made from sorghum flour, often served with stews or soups."
+          }
+        ],
+        "Spain": [
+          {
+            "name": "Paella",
+            "description": "A rice dish cooked with saffron, seafood, and a mix of vegetables and meat."
+          },
+          {
+            "name": "Gazpacho",
+            "description": "A cold tomato soup made with cucumbers, peppers, garlic, and olive oil."
+          }
+        ],
+        "Sri Lanka": [
+          {
+            "name": "Kottu Roti",
+            "description": "A stir-fried dish made with chopped flatbread, vegetables, and meat."
+          },
+          {
+            "name": "Fish Ambul Thiyal",
+            "description": "A sour fish curry made with tamarind, typically cooked until dry."
+          }
+        ],
+        "Sudan": [
+          {
+            "name": "Ful Sudani",
+            "description": "A fava bean stew cooked with onions, garlic, and spices."
+          },
+          {
+            "name": "Kisra",
+            "description": "A fermented flatbread made from sorghum, often eaten with stews."
+          }
+        ],
+        "Suriname": [
+          {
+            "name": "Pom",
+            "description": "A casserole made with grated taro root, chicken, and spices."
+          },
+          {
+            "name": "Bara",
+            "description": "A fried savory dough made from black gram flour and spices."
+          }
+        ],
+        "Sweden": [
+          {
+            "name": "Köttbullar",
+            "description": "Swedish meatballs served with lingonberry jam and cream sauce."
+          },
+          {
+            "name": "Gravlax",
+            "description": "Cured salmon served with mustard-dill sauce."
+          }
+        ],
+        "Switzerland": [
+          {
+            "name": "Fondue",
+            "description": "Melted cheese served in a communal pot, eaten by dipping bread."
+          },
+          {
+            "name": "Rösti",
+            "description": "A Swiss potato pancake, often served with cheese and bacon."
+          }
+        ],
+        "Syria": [
+          {
+            "name": "Kibbeh",
+            "description": "A dish made from bulgur and ground meat, often shaped into balls and fried."
+          },
+          {
+            "name": "Fattoush",
+            "description": "A salad made with mixed greens, tomatoes, cucumbers, and toasted pita bread."
+          }
+        ],
+        "Taiwan": [
+          {
+            "name": "Beef Noodle Soup",
+            "description": "A hearty noodle soup made with beef shank, soy sauce, and spices."
+          },
+          {
+            "name": "Gua Bao",
+            "description": "A steamed bun filled with braised pork belly, pickled mustard greens, and peanuts."
+          }
+        ],
+        "Tajikistan": [
+          {
+            "name": "Plov",
+            "description": "A rice dish cooked with meat, carrots, and spices, similar to pilaf."
+          },
+          {
+            "name": "Qurutob",
+            "description": "A bread salad mixed with yogurt, tomatoes, cucumbers, and onions."
+          }
+        ],
+        "Tanzania": [
+          {
+            "name": "Nyama Choma",
+            "description": "Grilled meat, often goat or beef, served with a side of vegetables."
+          },
+          {
+            "name": "Ugali",
+            "description": "A maize-based porridge served as a staple with meat or vegetable stews."
+          }
+        ],
+        "Thailand": [
+          {
+            "name": "Pad Thai",
+            "description": "Stir-fried rice noodles with shrimp, tofu, peanuts, and bean sprouts."
+          },
+          {
+            "name": "Tom Yum",
+            "description": "A hot and sour soup made with shrimp, lemongrass, and chili paste."
+          }
+        ],
+        "Togo": [
+          {
+            "name": "Fufu",
+            "description": "A starchy side dish made from pounded yams, often served with a spicy soup."
+          },
+          {
+            "name": "Pâte",
+            "description": "A doughy maize dish often served with spicy tomato sauce."
+          }
+        ],
+        "Tonga": [
+          {
+            "name": "Lu Pulu",
+            "description": "Taro leaves filled with corned beef and coconut cream, then wrapped and baked."
+          },
+          {
+            "name": "Kapisi Pulu",
+            "description": "Cabbage cooked with coconut cream, onions, and tomatoes."
+          }
+        ],
+        "Trinidad and Tobago": [
+          {
+            "name": "Doubles",
+            "description": "Fried flatbread filled with curried chickpeas, topped with chutney."
+          },
+          {
+            "name": "Pelau",
+            "description": "A one-pot rice dish made with pigeon peas, chicken, and coconut milk."
+          }
+        ],
+        "Tunisia": [
+          {
+            "name": "Couscous",
+            "description": "A staple dish made from steamed semolina, served with vegetables and meat."
+          },
+          {
+            "name": "Brik",
+            "description": "A thin pastry filled with egg, tuna, and herbs, then fried."
+          }
+        ],
+        "Turkey": [
+          {
+            "name": "Kebap",
+            "description": "Grilled meat, often served on a skewer with vegetables and pita bread."
+          },
+          {
+            "name": "Baklava",
+            "description": "A sweet pastry made with layers of filo, filled with nuts and honey syrup."
+          }
+        ],
+        "Turkmenistan": [
+          {
+            "name": "Shashlik",
+            "description": "Grilled skewered meat, often seasoned with onions and spices."
+          },
+          {
+            "name": "Ichlekli",
+            "description": "A stuffed pie filled with minced lamb, onions, and spices."
+          }
+        ],
+        "Tuvalu": [
+          {
+            "name": "Palusami",
+            "description": "Taro leaves cooked with coconut cream, often served with breadfruit or taro root."
+          },
+          {
+            "name": "Coconut Rice",
+            "description": "Rice cooked with coconut milk, often served with fish."
+          }
+        ],
+          "Uganda": [
+            {
+              "name": "Matoke",
+              "description": "A dish made from steamed green bananas, often served with meat or peanut sauce."
+            },
+            {
+              "name": "Luwombo",
+              "description": "A traditional stew made with chicken, beef, or vegetables, cooked in banana leaves."
+            }
+          ],
+          "Ukraine": [
+            {
+              "name": "Borscht",
+              "description": "A beetroot soup served hot or cold, often accompanied by sour cream."
+            },
+            {
+              "name": "Varenyky",
+              "description": "Dumplings filled with potatoes, cheese, or fruit, served with butter and sour cream."
+            }
+          ],
+          "United Arab Emirates": [
+            {
+              "name": "Harees",
+              "description": "A traditional dish made from wheat and meat, slow-cooked to form a porridge-like consistency."
+            },
+            {
+              "name": "Al Machboos",
+              "description": "A spiced rice dish with lamb, chicken, or seafood, cooked with tomatoes and spices."
+            }
+          ],
+          "United Kingdom": [
+            {
+              "name": "Fish and Chips",
+              "description": "Battered fish fried until crispy, served with thick-cut chips and tartar sauce."
+            },
+            {
+              "name": "Shepherd's Pie",
+              "description": "A savory pie made with minced lamb, vegetables, and mashed potatoes."
+            }
+          ],
+          "United States of America": [
+            {
+              "name": "Apple Pie",
+              "description": "A classic American dessert made with apples, sugar, and cinnamon in a buttery crust."
+            },
+            {
+              "name": "Hamburger",
+              "description": "A popular sandwich made with ground beef, lettuce, tomato, and condiments."
+            }
+          ],
+          "Uruguay": [
+            {
+              "name": "Chivito",
+              "description": "A sandwich made with steak, ham, cheese, tomatoes, and other toppings."
+            },
+            {
+              "name": "Asado",
+              "description": "A traditional barbecue featuring various cuts of meat, grilled over an open flame."
+            }
+          ],
+          "Uzbekistan": [
+            {
+              "name": "Plov",
+              "description": "A rice dish cooked with lamb, carrots, and onions, often served at celebrations."
+            },
+            {
+              "name": "Samsa",
+              "description": "A savory pastry filled with meat and onions, baked until golden."
+            }
+          ],
+          "Vanuatu": [
+            {
+              "name": "Lap Lap",
+              "description": "A baked dish made from grated root vegetables, coconut milk, and meat."
+            },
+            {
+              "name": "Tuluk",
+              "description": "Taro and meat wrapped in banana leaves and baked."
+            }
+          ],
+          "Vatican City": [
+            {
+              "name": "Spaghetti alla Carbonara",
+              "description": "A pasta dish made with eggs, cheese, pancetta, and pepper."
+            },
+            {
+              "name": "Tiramisu",
+              "description": "A layered dessert made with mascarpone cheese, coffee-soaked ladyfingers, and cocoa."
+            }
+          ],
+          "Venezuela": [
+            {
+              "name": "Arepas",
+              "description": "Cornmeal cakes, often filled with cheese, meat, or avocado."
+            },
+            {
+              "name": "Pabellón Criollo",
+              "description": "A dish made with shredded beef, black beans, rice, and fried plantains."
+            }
+          ],
+          "Vietnam": [
+            {
+              "name": "Pho",
+              "description": "A noodle soup made with beef or chicken, herbs, and aromatic broth."
+            },
+            {
+              "name": "Bánh Mì",
+              "description": "A baguette sandwich filled with meat, pickled vegetables, and fresh herbs."
+            }
+          ],
+          "Yemen": [
+            {
+              "name": "Saltah",
+              "description": "A traditional stew made with meat, vegetables, and fenugreek froth."
+            },
+            {
+              "name": "Mandi",
+              "description": "A rice dish cooked with meat and spices, served with a yogurt-based sauce."
+            }
+          ],
+          "Zambia": [
+            {
+              "name": "Nshima",
+              "description": "A maize-based porridge served as a staple alongside meat or vegetable stews."
+            },
+            {
+              "name": "Chikanda",
+              "description": "A vegetarian dish made with wild orchids, peanuts, and baking soda."
+            }
+          ],
+          "Zimbabwe": [
+            {
+              "name": "Sadza",
+              "description": "A thick maize porridge, typically served with meat, vegetables, or relish."
+            },
+            {
+              "name": "Nyama",
+              "description": "A simple grilled meat dish, often served with a side of vegetables or sadza."
+            }
+          ]
+        }
