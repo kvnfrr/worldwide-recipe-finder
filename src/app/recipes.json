@@ -2,31 +2,37 @@
   "Afghanistan": [
     {
       "name": "Kabuli Pulao",
-      "description": "A traditional rice dish cooked with lamb, raisins, and carrots."
+      "description": "A traditional rice dish cooked with lamb, raisins, and carrots.",
+      "link": "https://foreignfork.com/kabuli-pulao/"
     },
     {
       "name": "Mantu",
-      "description": "Dumplings filled with minced meat and onion, typically served with yogurt."
+      "description": "Dumplings filled with minced meat and onion, typically served with yogurt.",
+      "link" : "https://afghancooks.com/mantu-recipe-afghan-dumpling/"
     }
   ],
   "Albania": [
     {
       "name": "Byrek",
-      "description": "A savory pie filled with cheese, spinach, or meat."
+      "description": "A savory pie filled with cheese, spinach, or meat.",
+      "link" : "https://xhuliocooks.com/recipe/how-to-make-albanian-byrek-with-ricotta-and-spinach/"
     },
     {
       "name": "Tavë Kosi",
-      "description": "A baked dish made with lamb, yogurt, and eggs."
+      "description": "A baked dish made with lamb, yogurt, and eggs.",
+      "link" : "https://cookingorgeous.com/blog/tave-kosi-elbasan-tava/"
     }
   ],
   "Algeria": [
     {
       "name": "Couscous",
-      "description": "A traditional North African dish made with steamed semolina and vegetables."
+      "description": "A traditional North African dish made with steamed semolina and vegetables.",
+      "link" : "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.themediterraneandish.com/israeli-couscous-recipe/&ved=2ahUKEwj44fS8jvCJAxUej4QIHZqTHoYQrbMEegQIDhAP&usg=AOvVaw1WDE9djU212qfTlra5OE4U"
     },
     {
       "name": "Chakchouka",
-      "description": "A spicy tomato and bell pepper stew often served with eggs."
+      "description": "A spicy tomato and bell pepper stew often served with eggs.",
+      "link" : "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://downshiftology.com/recipes/shakshuka/&ved=2ahUKEwjisK7GjvCJAxW3VTABHcUWOdUQrbMEegQIGxAH&usg=AOvVaw2A_hWhRtlm4zLQJcvzXYaj"
     }
   ],
   "Andorra": [
