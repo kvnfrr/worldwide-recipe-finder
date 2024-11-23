@@ -38,271 +38,325 @@
   "Andorra": [
     {
       "name": "Escudella",
-      "description": "A hearty stew made with meat, vegetables, and pasta."
+      "description": "A hearty stew made with meat, vegetables, and pasta.",
+      "link" : "https://foreignfork.com/andorranmeatstew/"
     },
     {
       "name": "Trinxat",
-      "description": "A dish made from mashed potatoes, cabbage, and bacon."
+      "description": "A dish made from mashed potatoes, cabbage, and bacon.",
+      "link" : "https://www.internationalcuisine.com/trinxat/"
     }
   ],
   "Angola": [
     {
       "name": "Muamba de Galinha",
-      "description": "Chicken stew cooked with palm oil, garlic, and okra."
+      "description": "Chicken stew cooked with palm oil, garlic, and okra.",
+      "link" : "https://www.africanbites.com/muamba-chickenmuamba-de-galinha/"
     },
     {
       "name": "Calulu",
-      "description": "A dish made with dried fish or meat, cooked with vegetables and palm oil."
+      "description": "A dish made with dried fish or meat, cooked with vegetables and palm oil.",
+      "link" : "https://travelfoodatlas.com/calulu-de-peixe-angola-recipe"
     }
   ],
   "Antigua and Barbuda": [
     {
       "name": "Ducana",
-      "description": "Sweet potato dumplings, typically served with saltfish."
+      "description": "Sweet potato dumplings, typically served with saltfish.",
+      "link" : "https://tarasmulticulturaltable.com/ducana-antiguan-sweet-potato-dumpling/"
     },
     {
       "name": "Fungee",
-      "description": "A cornmeal-based dish, often served with okra."
+      "description": "A cornmeal-based dish, often served with okra.",
+      "link" : "https://nationalfoods.org/recipe/fungee-national-dish-of-antigua-and-barbuda/"
     }
   ],
   "Argentina": [
     {
-      "name": "Asado",
-      "description": "A traditional barbecue with a variety of meats grilled over an open fire."
+      "name": "Choripan",
+      "description": "Choripán is a combination of the words chorizo (sausage) and pan (bread). The sandwich is served on a French baguette cut into roughly six inch sections, then lengthwise like a hot dog bun.",
+      "link" : "https://www.grillseeker.com/authentic-choripan-recipe/"
     },
     {
       "name": "Empanadas",
-      "description": "Pastry filled with beef, chicken, or cheese."
+      "description": "Pastry filled with beef, chicken, or cheese.",
+      "link" : "https://tastesbetterfromscratch.com/empanadas/"
     }
   ],
   "Armenia": [
     {
       "name": "Khorovats",
-      "description": "Armenian-style barbecued meat, often served with vegetables."
+      "description": "Armenian-style barbecued meat, often served with vegetables.",
+      "link" : "https://www.seriouseats.com/khorovats-armenian-shish-kebabs-7091621"
     },
     {
       "name": "Dolma",
-      "description": "Vine leaves stuffed with minced meat and rice."
+      "description": "Vine leaves stuffed with minced meat and rice.",
+      "link" : "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hungrypaprikas.com/iraqi-dolma/&ved=2ahUKEwiJ1_GekPGJAxUZVTABHdiWNRYQrbMEegQIDhAH&usg=AOvVaw0AbADiW0z5ye4qad84vN4_"
     }
   ],
   "Australia": [
     {
       "name": "Meat Pie",
-      "description": "A savory pie filled with minced meat, gravy, and sometimes vegetables."
+      "description": "A savory pie filled with minced meat, gravy, and sometimes vegetables.",
+      "link" : "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.recipetineats.com/meat-pie-recipe/&ved=2ahUKEwiU2rO4kPGJAxVDr4QIHdk0LXQQFnoECCIQAQ&usg=AOvVaw2IG_uVF-Z3n0WCy6tPxO_R"
     },
     {
       "name": "Lamington",
-      "description": "A sponge cake coated in chocolate and rolled in coconut."
+      "description": "A sponge cake coated in chocolate and rolled in coconut.",
+      "link" : "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.recipetineats.com/classic-lamingtons/&ved=2ahUKEwjVgvTQkPGJAxWSVTABHdktJyAQFnoECBsQAQ&usg=AOvVaw3Ca12s6cMCkKBIUDSHFiDb"
     }
   ],
   "Austria": [
     {
       "name": "Wiener Schnitzel",
-      "description": "Breaded and fried veal cutlet served with lemon."
+      "description": "Breaded and fried veal cutlet served with lemon.",
+      "link" : "https://honest-food.net/wiener-schnitzel-recipe/"
     },
     {
       "name": "Tafelspitz",
-      "description": "Boiled beef served with horseradish and apple sauce."
+      "description": "Boiled beef served with horseradish and apple sauce.",
+      "link" : "https://www.thespruceeats.com/classic-tafelspitz-national-dish-of-austria-1446537"
     }
   ],
   "Azerbaijan": [
     {
       "name": "Plov",
-      "description": "A rice dish with saffron, lamb, and vegetables."
+      "description": "A rice dish with saffron, lamb, and vegetables.",
+      "link" : "https://natashaskitchen.com/beef-plov-beef-rice-pilaf-recipe/"
     },
     {
       "name": "Dolma",
-      "description": "Vegetables stuffed with rice, minced meat, and herbs."
+      "description": "Vegetables stuffed with rice, minced meat, and herbs.",
+      "link" : "https://foreignfork.com/dolma-azerbaijan-a-new-champion/"
     }
   ],
   "Bahamas": [
     {
       "name": "Conch Salad",
-      "description": "A fresh salad made with conch, lime juice, bell peppers, and onions."
+      "description": "A fresh salad made with conch, lime juice, bell peppers, and onions.",
+      "link" : "https://www.aspicyperspective.com/bahamian-conch-salad/"
     },
     {
       "name": "Cracked Conch",
-      "description": "Breaded and fried conch meat, often served with a spicy dipping sauce."
+      "description": "Breaded and fried conch meat, often served with a spicy dipping sauce.",
+      "link" : "https://travelfoodatlas.com/cracked-conch-recipe"
     }
   ],
   "Bahrain": [
     {
       "name": "Machboos",
-      "description": "A spiced rice dish with meat or fish."
+      "description": "A spiced rice dish with meat or fish.",
+      "link" : "https://www.hungrypaprikas.com/chicken-machboos/"
     },
     {
       "name": "Samboosa",
-      "description": "A fried pastry filled with spiced meat or vegetables."
+      "description": "A fried pastry filled with spiced meat or vegetables.",
+      "link" : "https://www.indianhealthyrecipes.com/samosa-recipe-make-samosa/"
     }
   ],
   "Bangladesh": [
     {
       "name": "Biryani",
-      "description": "A rice dish cooked with marinated meat, saffron, and spices."
+      "description": "A rice dish cooked with marinated meat, saffron, and spices.",
+      "link" : "https://www.indianhealthyrecipes.com/chicken-biryani-recipe/"
     },
     {
       "name": "Panta Ilish",
-      "description": "Fermented rice served with fried hilsa fish."
+      "description": "Fermented rice served with fried hilsa fish.",
+      "link" : "https://www.goya.in/blog/recipe-panta-ilish-with-bhortas-for-pohela-baishakh"
     }
   ],
   "Barbados": [
     {
       "name": "Cou-Cou and Flying Fish",
-      "description": "A cornmeal and okra dish served with steamed or fried flying fish."
+      "description": "A cornmeal and okra dish served with steamed or fried flying fish.",
+      "link" : "https://www.google.com/search?q=Cou-Cou+and+Flying+Fish+recipe&client=safari&sca_esv=967cb4d33a83a1c2&rls=en&sxsrf=ADLYWIJFjjfwHOWJShe0OAShTHKwfEoaEQ%3A1732319791748&ei=LxpBZ4-0LYGUwbkPxueBuAY&ved=0ahUKEwjPh8yOkvGJAxUBSjABHcZzAGcQ4dUDCA8&uact=5&oq=Cou-Cou+and+Flying+Fish+recipe&gs_lp=Egxnd3Mtd2l6LXNlcnAiHkNvdS1Db3UgYW5kIEZseWluZyBGaXNoIHJlY2lwZTIEEAAYHjIGEAAYBRgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIESMYJULcHWLcHcAJ4AJABAJgBiQGgAfoBqgEDMC4yuAEDyAEA-AEC-AEBmAIDoAK8AcICChAAGLADGNYEGEeYAwCIBgGQBgiSBwMyLjGgB-0I&sclient=gws-wiz-serp"
     },
     {
       "name": "Pepperpot",
-      "description": "A rich stew made with beef, pork, and cassareep."
+      "description": "A rich stew made with beef, pork, and cassareep.",
+      "link" : "https://metemgee.com/guyanese-pepperpot/"
     }
   ],
   "Belarus": [
     {
       "name": "Draniki",
-      "description": "Potato pancakes often served with sour cream."
+      "description": "Potato pancakes often served with sour cream.",
+      "link" : "https://natashaskitchen.com/meat-stuffed-potato-pancakes/"
     },
     {
       "name": "Machanka",
-      "description": "A pork stew served with pancakes or potatoes."
+      "description": "A pork stew served with pancakes or potatoes.",
+      "link" : "https://mydeliciousmeals.com/recipe/belarusian-machanka-with-yeast-crepes"
     }
   ],
   "Belgium": [
     {
       "name": "Moules-Frites",
-      "description": "Mussels cooked in white wine and served with fries."
+      "description": "Mussels cooked in white wine and served with fries.",
+      "link" : "https://www.food.com/recipe/moules-frites-french-belgian-bistro-style-mussels-and-chips-271596"
     },
     {
       "name": "Stoofvlees",
-      "description": "A beef stew made with Belgian beer."
+      "description": "A beef stew made with Belgian beer.",
+      "link" : "https://agrillforallseasons.com/stoofvlees-recipe/"
     }
   ],
   "Belize": [
     {
       "name": "Rice and Beans",
-      "description": "Coconut-flavored rice cooked with beans, often served with meat."
+      "description": "Coconut-flavored rice cooked with beans, often served with meat.",
+      "link" : "https://explorecookeat.com/belizean-rice-and-beans/"
     },
     {
       "name": "Fry Jacks",
-      "description": "Deep-fried dough often served with breakfast."
+      "description": "Deep-fried dough often served with breakfast.",
+      "link" : "https://www.food.com/recipe/fry-jacks-belize-499428"
     }
   ],
   "Benin": [
     {
       "name": "Ago Glain",
-      "description": "A tomato-based sauce served with fried fish."
+      "description": "A tomato-based sauce served with fried fish.",
+      "link" : "https://www.internationalcuisine.com/ago-glain/"
     },
     {
       "name": "Amiwo",
-      "description": "A spicy cornmeal dish often served with meat."
+      "description": "A spicy cornmeal dish often served with meat.",
+      "link" : "https://unseenbenin.wordpress.com/2015/08/02/amiwo-a-popular-easy-and-delicious-beninese-dish/"
     }
   ],
   "Bhutan": [
     {
       "name": "Ema Datshi",
-      "description": "A spicy dish made with chili peppers and cheese."
+      "description": "A spicy dish made with chili peppers and cheese.",
+      "link" : "https://marcsrecipes.com/ema-datshi/"
     },
     {
       "name": "Phaksha Paa",
-      "description": "Pork cooked with radishes, chili, and sometimes spinach."
+      "description": "Pork cooked with radishes, chili, and sometimes spinach.",
+      "link" : "https://mealsnboons.com/pork-with-dried-red-chillies/"
     }
   ],
   "Bolivia": [
     {
       "name": "Salteñas",
-      "description": "Savory pastries filled with meat, potatoes, and spices."
+      "description": "Savory pastries filled with meat, potatoes, and spices.",
+      "link" : "https://chipabythedozen.com/en/saltenas-bolivian-empanadas/"
     },
     {
       "name": "Silpancho",
-      "description": "Thinly pounded meat served with rice, potatoes, and fried egg."
+      "description": "Thinly pounded meat served with rice, potatoes, and fried egg.",
+      "link" : "https://www.food.com/recipe/silpancho-traditional-bolivian-meal-306949"
     }
   ],
   "Bosnia and Herzegovina": [
     {
       "name": "Ćevapi",
-      "description": "Grilled minced meat sausages served with flatbread."
+      "description": "Grilled minced meat sausages served with flatbread.",
+      "link" : "https://themodernnonna.com/cevapi/"
     },
     {
       "name": "Begova Čorba",
-      "description": "A chicken and okra soup."
+      "description": "A chicken and okra soup.",
+      "link" : "https://balkanlunchbox.com/beys-soup-traditional-version/"
     }
   ],
   "Botswana": [
     {
       "name": "Seswaa",
-      "description": "A meat stew traditionally served with thick porridge called pap."
+      "description": "A meat stew traditionally served with thick porridge called pap.",
+      "link" : "https://foreignfork.com/seswaa/"
     },
     {
       "name": "Morogo",
-      "description": "Wild spinach, often served with meat."
+      "description": "Wild spinach, often served with meat.",
+      "link" : "https://cookpad.com/us/recipes/3237710-morogokale"
     }
   ],
   "Brazil": [
     {
       "name": "Feijoada",
-      "description": "A black bean stew with pork, served with rice and greens."
+      "description": "A black bean stew with pork, served with rice and greens.",
+      "link" : "https://www.daringgourmet.com/feijoada/"
     },
     {
       "name": "Pão de Queijo",
-      "description": "Cheese bread made from cassava flour."
+      "description": "Cheese bread made from cassava flour.",
+      "link" : "https://www.simplyrecipes.com/recipes/easy_brazilian_cheese_bread/"
     }
   ],
   "Brunei": [
     {
       "name": "Ambuyat",
-      "description": "A starchy dish made from the sago palm, served with dipping sauces."
+      "description": "A starchy dish made from the sago palm, served with dipping sauces.",
+      "link" : "https://nationalfoods.org/recipe/ambuyat-national-dish-of-brunei/#google_vignette"
     },
     {
       "name": "Nasi Katok",
-      "description": "Rice served with fried chicken and a spicy sambal."
+      "description": "Rice served with fried chicken and a spicy sambal.",
+      "link" : "https://www.kikkoman.com/en/cookbook/recipe/00055377.html"
     }
   ],
   "Bulgaria": [
     {
       "name": "Banitsa",
-      "description": "A pastry filled with eggs and cheese."
+      "description": "A pastry filled with eggs and cheese.",
+      "link" : "https://themodernnonna.com/banitsa/"
     },
     {
       "name": "Shopska Salad",
-      "description": "A fresh salad made with tomatoes, cucumbers, onions, and feta cheese."
+      "description": "A fresh salad made with tomatoes, cucumbers, onions, and feta cheese.",
+      "link" : "https://www.themediterraneandish.com/shopska-salad/"
     }
   ],
   "Burkina Faso": [
     {
       "name": "Riz Gras",
-      "description": "A rice dish cooked with meat, vegetables, and tomatoes."
+      "description": "A rice dish cooked with meat, vegetables, and tomatoes.",
+      "link" : "https://www.food.com/recipe/riz-gras-fat-rice-burkina-faso-483120"
     },
     {
       "name": "Poulet Bicyclette",
-      "description": "Grilled chicken marinated with local spices."
+      "description": "Grilled chicken marinated with local spices.",
+      "link" : "https://pauldelancey.com/2021/10/15/bicycle-chicken/"
     }
   ],
   "Burundi": [
     {
       "name": "Boko Boko Harees",
-      "description": "Wheat and chicken porridge, seasoned with spices."
+      "description": "Wheat and chicken porridge, seasoned with spices.",
+      "link" : "https://jesseatsandtravels.com/boko-boko-harees-chicken-with-bulgar-wheat/"
     },
     {
       "name": "Ndagala",
-      "description": "Small fried fish served with spicy tomato sauce."
+      "description": "Small fried fish served with spicy tomato sauce.",
+      "link" : "https://dianabuja.wordpress.com/tag/ndagala/"
     }
   ],
   "Cambodia": [
     {
       "name": "Amok Trey",
-      "description": "A fish curry steamed in banana leaves."
+      "description": "A fish curry steamed in banana leaves.",
+      "link" : "https://www.internationalcuisine.com/cambodia-trey-amok/"
     },
     {
       "name": "Lok Lak",
-      "description": "Stir-fried marinated beef served with a dipping sauce."
+      "description": "Stir-fried marinated beef served with a dipping sauce.",
+      "link" : "https://www.simplyrecipes.com/lok-lak-shaking-beef-recipe-7089865"
     }
   ],
   "Cameroon": [
     {
       "name": "Ndolé",
-      "description": "A bitterleaf vegetable stew with peanuts and meat or shrimp."
+      "description": "A bitterleaf vegetable stew with peanuts and meat or shrimp.",
+      "link" : "https://www.africanbites.com/ndole/"
     },
     {
       "name": "Ekwang",
-      "description": "Grated cocoyams wrapped in leaves and cooked with palm oil and spices."
+      "description": "Grated cocoyams wrapped in leaves and cooked with palm oil and spices.",
+      "link" : "https://www.preciouscore.com/how-to-make-delicious-ekwang/"
     }
   ],
   "Canada": [
