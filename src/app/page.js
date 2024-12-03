@@ -1,16 +1,18 @@
-// page.js
+// app/page.js
 "use client";
 import dynamic from 'next/dynamic';
 import React, { useState, useEffect } from 'react';
-import RecipeList from './RecipeList';
+import UserQuery from './components/UserQuery';
+import RecipeList from './components/RecipeList';
 
-const GlobeComponent = dynamic(() => import('./Globe'), { ssr: false });
+const GlobeComponent = dynamic(() => import('./components/Globe'), { ssr: false });
 
 export default function HomePage() {
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [isGlobeLoading, setIsGlobeLoading] = useState(true);
   const [showGlobe, setShowGlobe] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
+  const [recipe, setRecipe] = useState(null); // For UserQuery
 
   const handleCountrySelect = (country) => {
     setSelectedCountry(country);
@@ -47,19 +49,41 @@ export default function HomePage() {
     </div>
   );
 
+  // Handle recipe fetched from UserQuery
+  const handleRecipeFetch = (fetchedRecipe) => {
+    setRecipe(fetchedRecipe);
+  };
+
+  const handleRecipeModalClose = () => {
+    setRecipe(null);
+  };
+
   return (
     <div style={{ width: '100vw', height: '100vh', position: 'relative', overflow: 'hidden' }}>
+      {/* Loading Screen */}
       {!showGlobe && <LoadingScreen />}
+
+      {/* Globe and UserQuery */}
       {showGlobe && (
         <>
           {/* Globe Container */}
-          <div className="globe-container" style={{ width: '100%', height: '100%' }}>
-            <GlobeComponent onCountrySelect={handleCountrySelect} selectedCountry={selectedCountry} />
+          <div className="globe-container">
+            <GlobeComponent onCountrySelect={handleCountrySelect} />
           </div>
 
-          {/* Recipe Modal */}
+          {/* User Query Input */}
+          <div className="user-query">
+            <UserQuery onRecipeFetch={handleRecipeFetch} />
+          </div>
+
+          {/* Recipe Modal for Country Selection */}
           {selectedCountry && (
             <RecipeList selectedCountry={selectedCountry} onClose={handleModalClose} />
+          )}
+
+          {/* Recipe Modal for User Query */}
+          {recipe && (
+            <RecipeList recipe={recipe} onClose={handleRecipeModalClose} />
           )}
         </>
       )}

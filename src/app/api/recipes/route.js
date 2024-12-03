@@ -1,12 +1,8 @@
-export const runtime = 'nodejs';
-
+// app/api/recipes/route.js
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-// Load environment variables
 const apiKey = process.env.OPENAI_API_KEY;
-
-console.log('API Key Loaded:', apiKey ? 'Yes' : 'No'); // Log whether API key is loaded
 
 const openai = new OpenAI({
   apiKey: apiKey,
@@ -15,7 +11,8 @@ const openai = new OpenAI({
 export async function POST(request) {
   try {
     const { country } = await request.json();
-    console.log('Received country:', country); // Log the received country
+
+    console.log('Received country:', country);
 
     if (!country) {
       console.error('Country not provided in request');
@@ -30,24 +27,22 @@ export async function POST(request) {
       {
         role: 'system',
         content:
-          'You are a helpful assistant that provides traditional recipes from different countries. When providing responses, output only the raw JSON data as specified, without any additional formatting or text.',
+          'You are a helpful assistant that provides traditional and authentic recipes from different countries. When providing responses, output only the raw JSON data as specified, without any additional formatting or text.',
       },
       {
-            role: 'user',
-            content: `As a culinary expert, please provide a list of 3 authentic and traditional dishes from ${country} that are culturally significant and have historical roots in the country's cuisine. Avoid modern or widely internationalized dishes.
-          
-          For example, if the country is Italy, an appropriate dish would be:
-          
-          {
-            "name": "Risotto alla Milanese",
-            "description": "A classic Italian dish from Milan made with Arborio rice, saffron, and Parmesan cheese, reflecting the rich culinary traditions of Northern Italy.",
-            "ingredients": ["Arborio rice", "saffron threads", "butter", "onion", "white wine", "chicken broth", "Parmesan cheese"],
-            "cooking_time": "45 minutes",
-            "steps": ["Sauté onion in butter", "Add rice and toast", "Deglaze with white wine", "Gradually add broth while stirring", "Add saffron", "Stir in Parmesan cheese before serving"]
-          }
-          
-          Now, please provide the dishes for ${country} in the same format. Output only the JSON array, without any Markdown formatting, code blocks, or additional text.`,
-          },       
+        role: 'user',
+        content: `As a culinary expert, please provide a list of 3 authentic and traditional dishes from ${country} that are culturally significant and have historical roots in the country's cuisine. Avoid modern or widely internationalized dishes.
+
+For each dish, include the following information:
+
+- Name
+- A brief description highlighting its cultural significance
+- Ingredients (as a list)
+- Cooking time
+- Detailed step-by-step cooking instructions (as a numbered list). Each step should be thorough and easy to follow, including specific details and tips where appropriate.
+
+Ensure that the dishes are genuine to ${country}'s heritage. Output only the JSON array, without any Markdown formatting, code blocks, or additional text. The JSON array should contain objects with the fields: 'name', 'description', 'ingredients', 'cooking_time', and 'steps'.`,
+      },
     ];
 
     console.log('Sending request to OpenAI API');
@@ -62,7 +57,7 @@ export async function POST(request) {
 
     const aiResponse = completion.choices[0].message.content.trim();
 
-    // Clean the AI response in case of unexpected formatting
+    // Clean the AI response
     const cleanedResponse = cleanAIResponse(aiResponse);
 
     // Attempt to parse the AI's response
@@ -71,7 +66,10 @@ export async function POST(request) {
       recipes = JSON.parse(cleanedResponse);
     } catch (error) {
       console.error('Failed to parse AI response as JSON:', aiResponse);
-      recipes = [{ error: 'Failed to parse AI response', details: aiResponse }];
+      return NextResponse.json(
+        { error: 'Failed to parse AI response', details: aiResponse },
+        { status: 500 }
+      );
     }
 
     return NextResponse.json({ recipes });
