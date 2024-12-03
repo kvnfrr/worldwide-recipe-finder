@@ -1,4 +1,4 @@
-// app/api/user-recipe/route.js
+// /app/api/user-recipe/route.js
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
@@ -41,15 +41,11 @@ Ensure the recipe is authentic and accurately represents the dish. Output only t
       },
     ];
 
-    console.log('Sending request to OpenAI API');
-
     const completion = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
       temperature: 0.5,
     });
-
-    console.log('Received response from OpenAI API');
 
     const aiResponse = completion.choices[0].message.content.trim();
 

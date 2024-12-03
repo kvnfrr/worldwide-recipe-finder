@@ -110,6 +110,7 @@ body {
   margin-left: 10px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .user-query-button:hover {
@@ -121,36 +122,33 @@ body {
   margin-top: 10px;
 }
 
-/* Recipe Modal Styles */
+/* Recipe Modal */
 .recipe-modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(26, 26, 26, 0.9); /* Dark grey overlay */
+  background-color: rgba(26, 26, 26, 0.9); /* Semi-transparent background */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 9;
-  padding: 20px; /* Add padding to prevent content from touching the edges */
-  overflow-y: auto; /* Enable vertical scrolling if modal content exceeds viewport */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
 
 .recipe-modal-content {
   background-color: #333; /* Dark grey background */
   padding: 20px;
-  border-radius: 5px;
-  width: 100%;
-  max-width: 600px;
-  color: #fff;
-  position: relative;
-  opacity: 1;
-  transform: scale(1);
-  transition: none;
-  max-height: 80vh; /* Set maximum height to 80% of the viewport height */
-  overflow-y: auto; /* Enable vertical scrolling within the modal content */
-  box-sizing: border-box; /* Ensure padding is included in the height calculation */
+  border-radius: 8px; /* Rounded corners */
+  width: 90%; /* Adjust modal width */
+  max-width: 600px; /* Limit modal width */
+  max-height: 80vh; /* Limit modal height to 80% of viewport height */
+  overflow-y: auto; /* Enable vertical scrolling within the modal */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  box-sizing: border-box; /* Include padding in width and height */
+  color: #fff; /* White text for readability */
+  position: relative; /* For positioning the close button */
 }
 
 .close-button {
@@ -159,29 +157,14 @@ body {
   right: 15px;
   font-size: 2rem;
   cursor: pointer;
-  color: #fff; /* Keep the close button white */
+  color: #fff;
 }
 
 .close-button:hover {
   color: #ccc;
 }
 
-/* Recipe List Styles */
-.ingredients-list,
-.steps-list {
-  margin-left: 20px;
-}
-
-.ingredients-list li,
-.steps-list li {
-  margin-bottom: 5px;
-}
-
-.recipe-modal-content h3 {
-  margin-top: 20px;
-}
-
-/* Food Item Styles */
+/* Food List Styles */
 .food-list {
   list-style: none;
   padding: 0;
@@ -197,12 +180,23 @@ body {
 }
 
 .food-item:hover {
-  background-color: #555; /* Slightly lighter on hover */
+  background-color: #555; /* Highlight on hover */
+}
+
+/* Scrollable Ingredients and Steps */
+.ingredients-list,
+.steps-list {
+  margin-left: 20px;
+}
+
+.ingredients-list li,
+.steps-list li {
+  margin-bottom: 5px;
 }
 
 .back-button {
   background-color: transparent;
-  color: #005F0F; /* Green text color */
+  color: #00aaff; /* Blue text for visibility */
   border: none;
   font-size: 1rem;
   cursor: pointer;
@@ -212,6 +206,7 @@ body {
 .back-button:hover {
   text-decoration: underline;
 }
+
 
 /* Modal Animation */
 .recipe-modal.animate .recipe-modal-content {

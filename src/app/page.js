@@ -1,9 +1,9 @@
-// app/page.js
+// /app/page.js
 "use client";
 import dynamic from 'next/dynamic';
 import React, { useState, useEffect } from 'react';
-import UserQuery from './components/UserQuery';
 import RecipeList from './components/RecipeList';
+import UserQuery from './components/UserQuery';
 
 const GlobeComponent = dynamic(() => import('./components/Globe'), { ssr: false });
 
@@ -12,7 +12,7 @@ export default function HomePage() {
   const [isGlobeLoading, setIsGlobeLoading] = useState(true);
   const [showGlobe, setShowGlobe] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
-  const [recipe, setRecipe] = useState(null); // For UserQuery
+  const [recipe, setRecipe] = useState(null);
 
   const handleCountrySelect = (country) => {
     setSelectedCountry(country);
@@ -27,6 +27,14 @@ export default function HomePage() {
     setTimeout(() => {
       setShowGlobe(true);
     }, 500); // Duration matches the CSS animation duration
+  };
+
+  const handleRecipeFetch = (fetchedRecipe) => {
+    setRecipe(fetchedRecipe);
+  };
+
+  const handleRecipeModalClose = () => {
+    setRecipe(null);
   };
 
   // Simulate globe loading
@@ -49,21 +57,9 @@ export default function HomePage() {
     </div>
   );
 
-  // Handle recipe fetched from UserQuery
-  const handleRecipeFetch = (fetchedRecipe) => {
-    setRecipe(fetchedRecipe);
-  };
-
-  const handleRecipeModalClose = () => {
-    setRecipe(null);
-  };
-
   return (
     <div style={{ width: '100vw', height: '100vh', position: 'relative', overflow: 'hidden' }}>
-      {/* Loading Screen */}
       {!showGlobe && <LoadingScreen />}
-
-      {/* Globe and UserQuery */}
       {showGlobe && (
         <>
           {/* Globe Container */}

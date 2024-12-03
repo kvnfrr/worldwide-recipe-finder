@@ -1,4 +1,4 @@
-// UserQuery.js
+// /app/components/UserQuery.js
 import React, { useState } from 'react';
 
 const UserQuery = ({ onRecipeFetch }) => {
@@ -25,11 +25,15 @@ const UserQuery = ({ onRecipeFetch }) => {
       });
 
       if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to fetch recipe');
+        const errorData = await response.json().catch(() => null);
+        const errorMessage = errorData?.error || 'Failed to fetch recipe';
+        throw new Error(errorMessage);
       }
 
-      const data = await response.json();
+      const data = await response.json().catch(() => {
+        throw new Error('Invalid JSON response from server');
+      });
+
       onRecipeFetch(data.recipe);
     } catch (err) {
       console.error('Error fetching recipe:', err);

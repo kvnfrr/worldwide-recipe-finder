@@ -1,16 +1,13 @@
-// Globe.js
+// /app/components/Globe.js
 "use client";
 import React, { useRef, useEffect, useState } from 'react';
 import Globe from 'react-globe.gl';
-import RecipeList from './RecipeList';
 
-const GlobeComponent = () => {
+const GlobeComponent = ({ onCountrySelect }) => {
   const globeRef = useRef();
   const [countries, setCountries] = useState([]);
   const [hoverD, setHoverD] = useState(null);
   const [selectedD, setSelectedD] = useState(null);
-  const [selectedCountry, setSelectedCountry] = useState(null);
-  const [clickPosition, setClickPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     if (globeRef.current) {
@@ -27,9 +24,8 @@ const GlobeComponent = () => {
   const handleCountryClick = (polygon, event) => {
     if (polygon) {
       const countryName = getCountryName(polygon);
-      setSelectedCountry(countryName);
       setSelectedD(polygon);
-      setClickPosition({ x: event.clientX, y: event.clientY });
+      onCountrySelect(countryName); // Notify parent component
     }
   };
 
@@ -48,13 +44,13 @@ const GlobeComponent = () => {
   };
 
   return (
-    <div style={{ flex: 1, position: 'relative', width: '100%' }}>
+    <div style={{ flex: 1, position: 'relative', width: '100%', height: '100%' }}>
       <Globe
         ref={globeRef}
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
-        backgroundColor="#1a1a1a" // Set your desired background color
+        backgroundColor="#1a1a1a"
         showAtmosphere={true}
-        atmosphereColor="rgba(135, 206, 235, 0.5)" // Soft blue atmosphere
+        atmosphereColor="rgba(135, 206, 235, 0.5)"
         atmosphereAltitude={0.25}
         polygonsData={countries}
         polygonAltitude={(d) => (d === hoverD || d === selectedD ? 0.06 : 0.01)}
@@ -83,13 +79,6 @@ const GlobeComponent = () => {
           autoRotateSpeed: 0.2,
         }}
       />
-      {selectedCountry && (
-        <RecipeList
-          selectedCountry={selectedCountry}
-          onClose={() => setSelectedCountry(null)}
-          clickPosition={clickPosition}
-        />
-      )}
     </div>
   );
 };
