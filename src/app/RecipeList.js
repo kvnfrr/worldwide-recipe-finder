@@ -1,34 +1,41 @@
 import React, { useEffect, useState } from 'react';
-import recipesData from './recipes.json'; // Import the recipes JSON file
 
-const RecipeList = ({ selectedCountry }) => {
-  const [recipes, setRecipes] = useState([]);
+const RecipeList = ({ selectedCountry, onClose }) => {
+  const [recipes, setRecipes] = useState(null);
 
   useEffect(() => {
-    // Fetch recipes for the selected country from the JSON file
-    if (selectedCountry && recipesData[selectedCountry]) {
-      setRecipes(recipesData[selectedCountry]);
-    } else {
-      setRecipes([]);
-    }
+    // Placeholder for AI-generated recipes
+    // In the future, replace this with an API call to your AI service
+    setTimeout(() => {
+      setRecipes([
+        { name: 'Recipe 1', description: 'Delicious traditional dish.' },
+        { name: 'Recipe 2', description: 'A must-try specialty.' },
+        { name: 'Recipe 3', description: 'A local favorite.' },
+      ]);
+    }, 1000); // Simulate loading time
   }, [selectedCountry]);
 
   return (
-    <div>
-      <h2>Recipes from {selectedCountry}</h2>
-      {recipes.length > 0 ? (
-        <ul>
-          {recipes.map((recipe, index) => (
-            <li key={index}>
-              <h3>{recipe.name}</h3>
-              <p>{recipe.description}</p>
-              <a href={recipe.link} target="_blank" rel="noopener noreferrer">View Recipe</a>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>No recipes available for this country.</p>
-      )}
+    <div className="recipe-modal">
+      <div className="recipe-modal-content">
+        <span className="close-button" onClick={onClose}>
+          &times;
+        </span>
+        <h2>Recipes from {selectedCountry}</h2>
+        {recipes ? (
+          <ul>
+            {recipes.map((recipe, index) => (
+              <li key={index}>
+                <h3>{recipe.name}</h3>
+                <p>{recipe.description}</p>
+                {/* Placeholder for recipe link or details */}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>Loading recipes...</p>
+        )}
+      </div>
     </div>
   );
 };
