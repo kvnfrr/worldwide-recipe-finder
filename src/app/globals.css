@@ -1,3 +1,5 @@
+/* globals.css */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -36,18 +38,7 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-}
-
-.menu {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  width: 300px;
-  z-index: 2;
+  background-color: #1a1a1a; /* Set your desired background color */
 }
 
 /* Loading Screen Styles */
@@ -57,13 +48,19 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #1a1a1a;
-  color: #fff;
+  background-color: #232627;
+  color: #e0e0e0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 10;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.loading-screen.fade-out {
+  opacity: 0;
 }
 
 .loading-title {
@@ -73,7 +70,7 @@ body {
 }
 
 .begin-button {
-  background-color: #00aaff;
+  background-color: #005F0F;
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -84,7 +81,7 @@ body {
 }
 
 .begin-button:hover {
-  background-color: #0088cc;
+  background-color: #326e00;
 }
 
 .recipe-modal {
@@ -98,16 +95,20 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 9;
+  overflow: hidden;
 }
 
 .recipe-modal-content {
   background-color: #333;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 5px; /* Adjusted border-radius */
   width: 80%;
   max-width: 600px;
   color: #fff;
   position: relative;
+  opacity: 1;
+  transform: scale(1);
+  transition: none;
 }
 
 .close-button {
@@ -116,4 +117,83 @@ body {
   right: 15px;
   font-size: 2rem;
   cursor: pointer;
+}
+
+/* Recipe List Styles */
+.food-list {
+  list-style: none;
+  padding: 0;
+}
+
+.food-item {
+  background-color: #444;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.food-item:hover {
+  background-color: #555;
+}
+
+.back-button {
+  background-color: transparent;
+  color: #005F0F;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+/* Ingredients and Steps Styles */
+.ingredients-list,
+.steps-list {
+  margin-left: 20px;
+}
+
+.ingredients-list li,
+.steps-list li {
+  margin-bottom: 5px;
+}
+
+.recipe-modal-content h3 {
+  margin-top: 20px;
+}
+
+.save-pdf-button {
+  background-color: #005F0F;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.save-pdf-button:hover {
+  background-color: #326e00;
+}
+
+/* Modal Animation */
+.recipe-modal.animate .recipe-modal-content {
+  animation: expandModalFromClick 0.5s forwards;
+}
+
+@keyframes expandModalFromClick {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

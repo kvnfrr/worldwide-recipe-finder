@@ -1,3 +1,4 @@
+// page.js
 "use client";
 import dynamic from 'next/dynamic';
 import React, { useState, useEffect } from 'react';
@@ -9,14 +10,21 @@ export default function HomePage() {
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [isGlobeLoading, setIsGlobeLoading] = useState(true);
   const [showGlobe, setShowGlobe] = useState(false);
+  const [fadeOut, setFadeOut] = useState(false);
 
-  // Callback function to update selected country
   const handleCountrySelect = (country) => {
     setSelectedCountry(country);
   };
 
   const handleModalClose = () => {
     setSelectedCountry(null);
+  };
+
+  const handleBeginClick = () => {
+    setFadeOut(true);
+    setTimeout(() => {
+      setShowGlobe(true);
+    }, 500); // Duration matches the CSS animation duration
   };
 
   // Simulate globe loading
@@ -29,10 +37,10 @@ export default function HomePage() {
 
   // Loading Screen Component
   const LoadingScreen = () => (
-    <div className="loading-screen">
+    <div className={`loading-screen ${fadeOut ? 'fade-out' : ''}`}>
       <h1 className="loading-title">World Wide Recipe Finder</h1>
       {!isGlobeLoading && (
-        <button className="begin-button" onClick={() => setShowGlobe(true)}>
+        <button className="begin-button" onClick={handleBeginClick}>
           Begin
         </button>
       )}

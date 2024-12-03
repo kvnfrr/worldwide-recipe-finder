@@ -1,12 +1,16 @@
+// Globe.js
 "use client";
 import React, { useRef, useEffect, useState } from 'react';
 import Globe from 'react-globe.gl';
+import RecipeList from './RecipeList';
 
-const GlobeComponent = ({ onCountrySelect, selectedCountry }) => {
+const GlobeComponent = () => {
   const globeRef = useRef();
   const [countries, setCountries] = useState([]);
   const [hoverD, setHoverD] = useState(null);
   const [selectedD, setSelectedD] = useState(null);
+  const [selectedCountry, setSelectedCountry] = useState(null);
+  const [clickPosition, setClickPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     if (globeRef.current) {
@@ -20,23 +24,12 @@ const GlobeComponent = ({ onCountrySelect, selectedCountry }) => {
     }
   }, []);
 
-  useEffect(() => {
-    if (selectedCountry) {
-      const selectedPolygon = countries.find(
-        (country) => getCountryName(country) === selectedCountry
-      );
-      setSelectedD(selectedPolygon);
-    } else {
-      setSelectedD(null);
-    }
-  }, [selectedCountry, countries]);
-
-  const handleCountryClick = (polygon) => {
+  const handleCountryClick = (polygon, event) => {
     if (polygon) {
       const countryName = getCountryName(polygon);
-      if (typeof onCountrySelect === 'function') {
-        onCountrySelect(countryName);
-      }
+      setSelectedCountry(countryName);
+      setSelectedD(polygon);
+      setClickPosition({ x: event.clientX, y: event.clientY });
     }
   };
 
@@ -59,7 +52,7 @@ const GlobeComponent = ({ onCountrySelect, selectedCountry }) => {
       <Globe
         ref={globeRef}
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
-        backgroundColor="#87CEEB" // Light sky blue
+        backgroundColor="#1a1a1a" // Set your desired background color
         showAtmosphere={true}
         atmosphereColor="rgba(135, 206, 235, 0.5)" // Soft blue atmosphere
         atmosphereAltitude={0.25}
@@ -82,7 +75,7 @@ const GlobeComponent = ({ onCountrySelect, selectedCountry }) => {
             globeRef.current.controls().autoRotateSpeed = d ? 0 : 0.1;
           }
         }}
-        onPolygonClick={(d) => handleCountryClick(d)}
+        onPolygonClick={(d, event) => handleCountryClick(d, event)}
         polygonsTransitionDuration={300}
         controls={{
           enableZoom: true,
@@ -90,6 +83,13 @@ const GlobeComponent = ({ onCountrySelect, selectedCountry }) => {
           autoRotateSpeed: 0.2,
         }}
       />
+      {selectedCountry && (
+        <RecipeList
+          selectedCountry={selectedCountry}
+          onClose={() => setSelectedCountry(null)}
+          clickPosition={clickPosition}
+        />
+      )}
     </div>
   );
 };
